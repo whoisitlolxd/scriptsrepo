@@ -11981,7 +11981,7 @@ addcmd('setupstuff', {'doorssetup','dsetup'}, function(speaker)
 end)
 
 addcmd('die',{'iamdead'},function(speaker)
-    speaker.Character:FindFirstChildOfClass("Humanoid").Health = 0
+    game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").Health = 0
 end)
 
 updateColors(currentShade1,shade1)
