@@ -1,7 +1,7 @@
 function sprinter(keyy:Enum.KeyCode,sped:number)
 	local speed = math.abs(sped)
 	local holding = false
-	function min(value,m)
+	local function min(value,m)
 		local newvalue
 		local b
 		if m == nil then b = 0 else b = m end
@@ -12,7 +12,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 		return newvalue
 	end
-	function getboost()
+	local function getboost()
 		if game.Players.LocalPlayer.Character == nil then
 			return
 		end
@@ -21,7 +21,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 		return game.Players.LocalPlayer.Character.Humanoid:GetAttribute("SpeedBoost")
 	end
-	function setboost(n)
+	local function setboost(n)
 		if game.Players.LocalPlayer.Character == nil then
 			return
 		end
@@ -30,7 +30,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 		game.Players.LocalPlayer.Character.Humanoid:SetAttribute("SpeedBoost",n)
 	end
-	function changeboost(n,clamp,cval)
+	local function changeboost(n,clamp,cval)
 		if game.Players.LocalPlayer.Character == nil then
 			return
 		end
@@ -44,12 +44,16 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 	end
 	local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua"))()
-	local draining = false;local adding = false;local stamina = 100;local rest = false -- unused
+	local draining = false;local adding = false;local stamina = 100;local rest = false--[[unused]];local running = false
 	game["Run Service"].Heartbeat:Connect(function(d)
-		if draining == true then
+		if draining == true and running == true then
 			stamina -= d * 15
 		elseif adding == true then
-			stamina += d * 5
+			if running then
+				stamina += d * 4
+			else
+				stamina += d * 7.5
+			end
 		end
 		if math.round(stamina) <= 0 then
 			gui.rest.ImageTransparency = 0
@@ -58,10 +62,10 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 		stamina = math.clamp(stamina,-5,100)
 		gui.text.Text = table.concat({
-					"STAMINA : ",
-					tostring(math.round(stamina)),
-					"%",
-				},"")
+			"STAMINA : ",
+			tostring(math.round(stamina)),
+			"%",
+		},"")
 		gui.bar.Size = UDim2.new(math.clamp(stamina/100,0,1),0,0.2,0)
 	end)
 	game.UserInputService.InputBegan:Connect(function(key,chatting)
@@ -78,6 +82,13 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			draining = false
 			adding = true
 			holding = false
+		end
+	end)
+	game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').Running:Connect(function(speedd)
+		if math.abs(speedd) > 0 then
+			running = true
+		else
+			running = false
 		end
 	end)
 end
