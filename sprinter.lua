@@ -78,6 +78,7 @@ function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax
 				"%",
 				"\nMAX : ",
 				tostring(math.round(barmaxx*10)/10),
+				"%",
 			},"")
 		else
 			gui.text.Text = table.concat({
@@ -87,6 +88,7 @@ function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax
 				"%",
 				"\nMAX : ",
 				tostring(math.round(barmaxx*10)/10),
+				"%",
 			},"")
 		end
 		gui.bar.Size = UDim2.new(math.clamp(stamina/displaymax,0,1),0,0.2,0)
