@@ -48,12 +48,12 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 	local draining = false;local adding = false;local stamina = 100;local rest = false--[[unused]];local running = false;local runspeed = 0
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true and running == true then
-			stamina -= d * 15
+			stamina -= (d * 15) * math.clamp(math.abs(runspeed),0,1)
 		elseif adding == true then
 			if running then
-				stamina += (d * 3.25) * math.clamp(math.abs(runspeed),0,1)
+				stamina += d * 3.25
 			else
-				stamina += (d * 7.5) * math.clamp(math.abs(runspeed),0,1)
+				stamina += d * 7.5
 			end
 		end
 		if math.round(stamina) <= 0 then
