@@ -72,6 +72,9 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			"%",
 		},"")
 		gui.bar.Size = UDim2.new(math.clamp(stamina/100,0,1),0,0.2,0)
+		if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):GetState() == Enum.HumanoidStateType.Dead then
+			gui.frame.Visible = false
+         end
 	end)
 	game.UserInputService.InputBegan:Connect(function(key,chatting)
 		if key.KeyCode == keyy and chatting ~= true and (holding == false and math.round(stamina) > 0) then
