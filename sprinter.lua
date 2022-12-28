@@ -45,15 +45,15 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 	end
 	local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua"))()
 	gui.bar.BackgroundTransparency = 0.3
-	local draining = false;local adding = false;local stamina = 100;local rest = false--[[unused]];local running = false
+	local draining = false;local adding = false;local stamina = 100;local rest = false--[[unused]];local running = false;local runspeed = 0
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true and running == true then
 			stamina -= d * 15
 		elseif adding == true then
 			if running then
-				stamina += d * 4
+				stamina += (d * 3.25) * math.clamp(math.abs(runspeed),0,1)
 			else
-				stamina += d * 7.5
+				stamina += (d * 7.5) * math.clamp(math.abs(runspeed),0,1)
 			end
 		end
 		if math.round(stamina) <= 0 then
@@ -107,6 +107,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		else
 			running = false
 		end
+		runspeed = speedd / game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').WalkSpeed
 	end)
 end
 
