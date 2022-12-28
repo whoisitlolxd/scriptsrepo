@@ -1,4 +1,5 @@
-function sprinter(keyy:Enum.KeyCode,speed:number)
+function sprinter(keyy:Enum.KeyCode,sped:number)
+	local speed = math.abs(sped)
 	if #getgenv()["sprinters"] >= 1 then
 		if getgenv()["sprinters"][1] == true then
 			return
@@ -66,7 +67,7 @@ function sprinter(keyy:Enum.KeyCode,speed:number)
 	end)
 	game.UserInputService.InputBegan:Connect(function(key,chatting)
 		if key.KeyCode == keyy and chatting ~= true and (holding == false and math.round(stamina) > 0) then
-			changeboost(10,true,0)
+			changeboost(speed,true,0)
 			draining = true
 			adding = false
 			holding = true
@@ -74,7 +75,7 @@ function sprinter(keyy:Enum.KeyCode,speed:number)
 	end)
 	game.UserInputService.InputEnded:Connect(function(key,chatting)
 		if key.KeyCode == keyy and chatting ~= true and holding == true then
-			changeboost(-10,true,0)
+			changeboost(-speed,true,0)
 			draining = false
 			adding = true
 			holding = false
