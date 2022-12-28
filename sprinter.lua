@@ -43,13 +43,13 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			setboost(getboost()+n)
 		end
 	end
-	local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua")()
+	local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua"))()
 	local draining = false;local adding = false;local stamina = 100;local rest = false -- unused
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true then
-			stamina -= d * 50
+			stamina -= d * 15
 		elseif adding == true then
-			stamina += d * 25
+			stamina += d * 5
 		end
 		if math.round(stamina) <= 0 then
 			gui.rest.ImageTransparency = 0
