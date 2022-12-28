@@ -1,5 +1,6 @@
-function sprinter(keyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number)
-	local speed = math.abs(sped)
+function sprinter(keyyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number)
+	local speed = math.abs(sped) or 5
+	local keyy = keyyy or Enum.KeyCode.Z
 	local barminn = barmin or -5
 	local barmaxx = barmax or 100
 	local start = sart or barmaxx
