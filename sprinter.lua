@@ -1,10 +1,10 @@
 function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number]])
-	local speed = math.abs(args.speed) or math.abs(args[2]) or 5
-	local keyy = args.key or args[1] or Enum.KeyCode.Z
-	local barminn = args.barmin or args[3] or -5
-	local barmaxx = args.barmax or args[4] or 100
-	local start = args.start or args[5] or barmaxx
-	local displaymax = args.displaymax or args[6] or barmaxx
+	local speed = math.abs(args.speed) --[[or math.abs(args[2])]] or 5
+	local keyy = args.key --[[or args[1] ]] or Enum.KeyCode.Z
+	local barminn = args.barmin --[[or args[3] ]] or -5
+	local barmaxx = args.barmax --[[or [args[4] ]] or 100
+	local start = args.start --[[or args[5] ]] or barmaxx
+	local displaymax = args.displaymax --[[or args[6] ]] or barmaxx
 	local holding = false
 	local function min(value,m)
 		local newvalue
@@ -76,6 +76,8 @@ function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax
 				"STAMINA : ",
 				tostring(math.round(stamina*10)/10),
 				"%",
+				"\nMAX : ",
+				tostring(math.round(barmaxx*10)/10),
 			},"")
 		else
 			gui.text.Text = table.concat({
@@ -83,6 +85,8 @@ function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax
 				tostring(math.round(stamina*10)/10),
 				".0",
 				"%",
+				"\nMAX : ",
+				tostring(math.round(barmaxx*10)/10),
 			},"")
 		end
 		gui.bar.Size = UDim2.new(math.clamp(stamina/displaymax,0,1),0,0.2,0)
