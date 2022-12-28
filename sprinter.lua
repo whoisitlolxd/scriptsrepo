@@ -1,10 +1,10 @@
-function sprinter(keyyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number)
-	local speed = math.abs(sped) or 5
-	local keyy = keyyy or Enum.KeyCode.Z
-	local barminn = barmin or -5
-	local barmaxx = barmax or 100
-	local start = sart or barmaxx
-	local displaymax = dispaymax or barmaxx
+function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number]])
+	local speed = math.abs(args.sped) or 5
+	local keyy = args.keyyy or Enum.KeyCode.Z
+	local barminn = args.barmin or -5
+	local barmaxx = args.barmax or 100
+	local start = args.sart or barmaxx
+	local displaymax = args.dispaymax or barmaxx
 	local holding = false
 	local function min(value,m)
 		local newvalue
