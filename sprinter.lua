@@ -1,11 +1,5 @@
 function sprinter(keyy:Enum.KeyCode,sped:number)
 	local speed = math.abs(sped)
-	if #getgenv()["sprinters"] >= 1 then
-		if getgenv()["sprinters"][1] == true then
-			return
-		end
-	end
-	getgenv()["sprinters"][loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/randomstring.lua"))()(100)] = true
 	local holding = false
 	function min(value,m)
 		local newvalue
