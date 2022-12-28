@@ -59,6 +59,9 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			setboost(-3)
 			gui.rest.ImageTransparency = 0
 		else
+			if getboost() < 0 then
+				setboost(0)
+			end
 			gui.rest.ImageTransparency = 1
 		end
 		stamina = math.clamp(stamina,-5,100)
