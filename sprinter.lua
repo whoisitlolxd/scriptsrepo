@@ -43,7 +43,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			setboost(getboost()+n)
 		end
 	end
-	local gui = loadstring(game:HttpGet([[https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua]]))()
+	local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua")()
 	local draining = false;local adding = false;local stamina = 100;local rest = false -- unused
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true then
