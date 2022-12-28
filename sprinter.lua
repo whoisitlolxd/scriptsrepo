@@ -63,7 +63,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		stamina = math.clamp(stamina,-5,100)
 		gui.text.Text = table.concat({
 			"STAMINA : ",
-			tostring(math.round(stamina)),
+			tostring(math.round(stamina*10)/10),
 			"%",
 		},"")
 		gui.bar.Size = UDim2.new(math.clamp(stamina/100,0,1),0,0.2,0)
