@@ -56,9 +56,9 @@ function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax
 			stamina -= (d * 15) * math.clamp(math.abs(runspeed),0,1)
 		elseif adding == true then
 			if running then
-				stamina += d * 3.25
+				stamina += d * 5
 			else
-				stamina += d * 7.5
+				stamina += d * 8.5
 			end
 		end
 		if math.round(stamina) <= 0 then
