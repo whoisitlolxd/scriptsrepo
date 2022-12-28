@@ -1,5 +1,7 @@
-function sprinter(keyy:Enum.KeyCode,sped:number)
+function sprinter(keyy:Enum.KeyCode,sped:number,barmin:number,barmax:number)
 	local speed = math.abs(sped)
+	local barminn = barmin or -5
+	local barmaxx = barmax or 100
 	local holding = false
 	local function min(value,m)
 		local newvalue
@@ -45,7 +47,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 	end
 	local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua"))()
 	gui.bar.BackgroundTransparency = 0.3
-	local draining = false;local adding = false;local stamina = 100;local rest = false--[[unused]];local running = false;local runspeed = 0
+	local draining = false;local adding = false;local stamina = barmaxx;local rest = false--[[unused]];local running = false;local runspeed = 0
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true and running == true then
 			stamina -= (d * 15) * math.clamp(math.abs(runspeed),0,1)
@@ -65,7 +67,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			end
 			gui.rest.ImageTransparency = 1
 		end
-		stamina = math.clamp(stamina,-5,100)
+		stamina = math.clamp(stamina,barminn,barmaxx)
 		if math.round(stamina*10)/10 ~= math.round(stamina) then
 			gui.text.Text = table.concat({
 				"STAMINA : ",
@@ -80,10 +82,10 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 				"%",
 			},"")
 		end
-		gui.bar.Size = UDim2.new(math.clamp(stamina/100,0,1),0,0.2,0)
+		gui.bar.Size = UDim2.new(math.clamp(stamina/barmaxx,0,1),0,0.2,0)
 		if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):GetState() == Enum.HumanoidStateType.Dead then
 			gui.frame.Visible = false
-         end
+		end
 	end)
 	game.UserInputService.InputBegan:Connect(function(key,chatting)
 		if key.KeyCode == keyy and chatting ~= true and (holding == false and math.round(stamina) > 0) then
