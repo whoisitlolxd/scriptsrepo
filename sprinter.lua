@@ -66,11 +66,20 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			gui.rest.ImageTransparency = 1
 		end
 		stamina = math.clamp(stamina,-5,100)
-		gui.text.Text = table.concat({
-			"STAMINA : ",
-			tostring(math.round(stamina*10)/10),
-			"%",
-		},"")
+		if math.round(stamina*10)/10 ~= math.round(stamina) then
+			gui.text.Text = table.concat({
+				"STAMINA : ",
+				tostring(math.round(stamina*10)/10),
+				"%",
+			},"")
+		else
+			gui.text.Text = table.concat({
+				"STAMINA : ",
+				tostring(math.round(stamina*10)/10),
+				".0",
+				"%",
+			},"")
+		end
 		gui.bar.Size = UDim2.new(math.clamp(stamina/100,0,1),0,0.2,0)
 		if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):GetState() == Enum.HumanoidStateType.Dead then
 			gui.frame.Visible = false
