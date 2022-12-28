@@ -44,6 +44,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 	end
 	local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua"))()
+	gui.bar.BackgroundTransparency = 0.3
 	local draining = false;local adding = false;local stamina = 100;local rest = false--[[unused]];local running = false
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true and running == true then
