@@ -6,7 +6,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 	end
 	getgenv()["sprinters"][loadstring(game:HttpGet("https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/randomstring.lua"))()(100)] = true
-	holding = false
+	local holding = false
 	function min(value,m)
 		local newvalue
 		local b
@@ -50,7 +50,7 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 		end
 	end
 	local gui = loadstring(game:HttpGet([[https://raw.githubusercontent.com/whoisitlolxd/scriptsrepo/main/sprintcreategui.lua]]))()
-	draining = false;adding = false;stamina = 100
+	local draining = false;local adding = false;local stamina = 100;local rest = false -- unused
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true then
 			stamina -= d * 50
@@ -63,6 +63,11 @@ function sprinter(keyy:Enum.KeyCode,sped:number)
 			gui.rest.ImageTransparency = 1
 		end
 		stamina = math.clamp(stamina,-5,100)
+		gui.text.Text = table.concat({
+					"STAMINA : ",
+					tostring(math.round(stamina)),
+					"%",
+				},"")
 		gui.bar.Size = UDim2.new(math.clamp(stamina/100,0,1),0,0.2,0)
 	end)
 	game.UserInputService.InputBegan:Connect(function(key,chatting)
