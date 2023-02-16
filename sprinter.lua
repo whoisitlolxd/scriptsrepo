@@ -1,4 +1,4 @@
-function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number]])
+function sprinter(args:{} --[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number]] )
 	local speed = math.abs(tonumber(args.speed) or 5) --[[or math.abs(args[2])]] or 5
 	local keyy = args.key --[[or args[1] ]] or Enum.KeyCode.Z
 	local barminn = args.barmin --[[or args[3] ]] or -5
