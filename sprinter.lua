@@ -1,10 +1,11 @@
 function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax:number,sart:number,dispaymax:number]])
-	local speed = math.abs(args.speed) --[[or math.abs(args[2])]] or 5
+	local speed = math.abs(tonumber(args.speed) or 5) --[[or math.abs(args[2])]] or 5
 	local keyy = args.key --[[or args[1] ]] or Enum.KeyCode.Z
 	local barminn = args.barmin --[[or args[3] ]] or -5
 	local barmaxx = args.barmax --[[or [args[4] ]] or 100
 	local start = args.start --[[or args[5] ]] or barmaxx
 	local displaymax = args.displaymax --[[or args[6] ]] or barmaxx
+	local increase = tonumber(args.increase) or 10
 	local holding = false
 	local function min(value,m)
 		local newvalue
@@ -53,12 +54,12 @@ function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax
 	local draining = false;local adding = false;local stamina = start;local rest = false--[[unused]];local running = false;local runspeed = 0
 	game["Run Service"].Heartbeat:Connect(function(d)
 		if draining == true and running == true then
-			stamina -= (d * 15) * math.clamp(math.abs(runspeed),0,1)
+			stamina -= (d * increase) * math.clamp(math.abs(runspeed),0,1)
 		elseif adding == true then
 			if running then
-				stamina += d * 5
+				stamina += d * (increase*0.45)
 			else
-				stamina += d * 8.5
+				stamina += d * (increase*0.75)
 			end
 		end
 		if math.round(stamina) <= 0 then
@@ -91,7 +92,7 @@ function sprinter(args:{}--[[keyyy:Enum.KeyCode,sped:number,barmin:number,barmax
 				"%",
 			},"")
 		end
-		gui.bar.Size = UDim2.new(math.clamp(stamina/displaymax,0,1),0,0.2,0)
+		gui.bar.Size = UDim2.new(stamina/displaymax,0,0.2,0)
 		if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):GetState() == Enum.HumanoidStateType.Dead then
 			gui.frame.Visible = false
 		end
