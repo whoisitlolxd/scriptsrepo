@@ -122,5 +122,5 @@ function sprinter(args:{} --[[keyyy:Enum.KeyCode,sped:number,barmin:number,barma
 		runspeed = speedd / game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').WalkSpeed
 	end)
 end
-
+-- someone farted... who was it?
 return sprinter
