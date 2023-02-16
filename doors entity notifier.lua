@@ -1,4 +1,6 @@
-getgenv = getgenv or getgenv == nil and (function()error('getgenv doesnt exist get a better executor')end)()
+if getgenv == nil then
+	error('getgenv is nil; get a better executor',0)
+end
 
 --[[local ws = game:GetService('Workspace')
 
