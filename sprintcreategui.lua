@@ -13,7 +13,7 @@ SHHHH DONT TELL ANYONE I USED THE CONVERTER!!! - whoisitlol
 local G2L = {};
 
 -- StarterGui.SprintGui
-G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"] = Instance.new("ScreenGui", --[[game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")]] game:GetService('CoreGui'));
 G2L["1"]["ResetOnSpawn"] = false;
 G2L["1"]["Name"] = [[SprintGui]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
