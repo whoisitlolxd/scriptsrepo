@@ -86,8 +86,9 @@ function bbgui(v)
     local gui = Instance.new('BillboardGui')
 	local corner = Instance.new('UICorner')
 	corner.CornerRadius = UDim.new(1,0)
-	corner.Parent = frame
 	local frame = Instance.new('Frame')
+    frame.BorderSizePixel = 0
+    corner.Parent = frame
 	frame.Size = UDim2.fromScale(1,1)
 	frame.BackgroundColor3 = Color3.new(1,0,0)
 	frame.Parent = gui
