@@ -84,15 +84,23 @@ local ws = game:GetService('Workspace')
 
 function bbgui(v)
     local gui = Instance.new('BillboardGui')
-    local imglabel = Instance.new('ImageLabel')
-    imglabel.Size = UDim2.fromScale(1,1)
+	local corner = Instance.new('UiCorner')
+	corner.CornerRadius = UDim.new(1,0)
+	corner.Parent = frame
+	local frame = Instance.new('Frame')
+	frame.Size = UDim2.fromScale(1,1)
+	frame.BackgroundColor3 = Color3.new(1,0,0)
+	frame.Parent = gui
+    --[[local imglabel = Instance.new('ImageLabel')
+    imglabel.Size = UDim2.fromScale(1,1)]]
     gui.Size = UDim2.fromScale(10,10)
-    imglabel.BackgroundTransparency = 1
+    --[[imglabel.BackgroundTransparency = 1
     imglabel.Image = 'rbxassetid://7949112710'
-    imglabel.Parent = gui
+    imglabel.Parent = gui]]
     gui.LightInfluence = 0
     gui.AlwaysOnTop = true
-    gui.Parent = v
+	gui.Parent = v
+    --gui.Adornee = v
 end
 
 getgenv().bbgui = bbgui
@@ -156,7 +164,7 @@ ws.Camera.ChildAdded:Connect(getgenv().functions.screech)
 
 run.Heartbeat:Connect(function()
     for i,func in pairs(getgenv().functions.hb) do
-        func()
+        pcall(function()func()end)
     end
 end)
 
