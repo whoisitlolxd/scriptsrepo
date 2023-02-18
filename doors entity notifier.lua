@@ -84,7 +84,7 @@ local ws = game:GetService('Workspace')
 
 function bbgui(v)
     local gui = Instance.new('BillboardGui')
-	local corner = Instance.new('UiCorner')
+	local corner = Instance.new('UICorner')
 	corner.CornerRadius = UDim.new(1,0)
 	corner.Parent = frame
 	local frame = Instance.new('Frame')
