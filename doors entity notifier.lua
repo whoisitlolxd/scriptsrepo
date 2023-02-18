@@ -134,6 +134,13 @@ getgenv().functions.hb.nowindows = function()
 	end)
 end
 
+-- anti lag?
+getgenv().functions.hb.camremovepieces = function()
+	for i,part in next,workspace.CurrentCamera:GetChildren() do
+		if part.Name == 'Piece' then v:Destroy() end
+	end
+end
+
 -- screech alert
 getgenv().functions.screech = function(v)
     if v.Name == 'Screech' then
