@@ -95,6 +95,8 @@ function bbgui(v)
     gui.Parent = v
 end
 
+getgenv().bbgui = bbgui
+
 ws.Ambience:ClearAllChildren()
 
 ws.Terrain.DescendantAdded:Connect(function(v)
@@ -145,7 +147,7 @@ end
 getgenv().functions.screech = function(v)
     if v.Name == 'Screech' then
         notif('Entity Warning!','Screech has spawned, look around!',3,true)
-        bbgui(v:FindFirstChildWhichIsA('Part',true) or v:FindFirstChildWhichIsA('BasePart',true) or v:FindFirstChildWhichIsA('MeshPart',true))
+        getgenv().bbgui(v:FindFirstChildWhichIsA('Part',true) or v:FindFirstChildWhichIsA('BasePart',true) or v:FindFirstChildWhichIsA('MeshPart',true))
     end
 end
 
@@ -169,7 +171,7 @@ ws.ChildAdded:Connect(function(v)
             local homepart = v:FindFirstChildOfClass('BasePart') or v.PrimaryPart
             local mag = game.Players.LocalPlayer:DistanceFromCharacter(homepart.Position)
             if mag < 10000 then
-                bbgui(homepart)
+                getgenv().bbgui(homepart)
                 getgenv().notif('Entity Warning!','\"'..v.Name..'\" has spawned!',3,true)
                 loop:Disconnect()
                 loop = nil
@@ -182,4 +184,4 @@ ws.ChildAdded:Connect(function(v)
     end)
 end)
 
-notif('small note','the screwed bambi image is a placeholder incase you didnt know',3,true)
+getgenv().notif('small note','the screwed bambi image is a placeholder incase you didnt know',3,true)
