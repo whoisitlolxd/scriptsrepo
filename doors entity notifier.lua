@@ -88,7 +88,7 @@ function bbgui(v)
     imglabel.Size = UDim2.fromScale(1,1)
     gui.Size = UDim2.fromScale(5,5)
     imglabel.BackgroundTransparency = 1
-    imglabel.Image = 'rbxassetid://7816785740'
+    imglabel.Image = 'rbxassetid://7949112710'
     imglabel.Parent = gui
     gui.LightInfluence = 0
     gui.AlwaysOnTop = true
@@ -99,13 +99,13 @@ ws.Ambience:ClearAllChildren()
 
 ws.Terrain.DescendantAdded:Connect(function(v)
     if v:IsA'Sound' then
-	    v:Destroy()
+	    v.Volume = 0; v.PlaybackSpeed = 0
     end
 end)
 
 ws.Ambience.DescendantAdded:Connect(function(v)
     if v:IsA'Sound' then
-	    v:Destroy()
+	    v.Volume = 0; v.PlaybackSpeed = 0
     end
 end)
 
@@ -113,7 +113,7 @@ local run = game['Run Service']
 
 function notif(title,text,dur,icon)
     game.StarterGui:SetCore('SendNotification',{
-	Icon = icon == true and 'rbxassetid://7816785740' or nil;
+	Icon = icon == true and 'rbxassetid://7949112710' or nil;
         Title = title;
         Text = text;
         Duration = tonumber(dur) or 3;
@@ -127,9 +127,11 @@ getgenv().notif = notif
 getgenv().functions = {}
 getgenv().functions.hb = {}
 getgenv().functions.hb.nowindows = function()
-    for i,v in pairs(ws.CurrentRooms:GetChildren()) do
-        for b,n in pairs(v:GetDescendants()) do if n:IsA('Sound') then n.PlaybackSpeed = 0; n.Volume = 0; n:Stop(); end end -- windows make noise. get rekt
-    end
+	pcall(function()
+		for i,v in pairs(ws.CurrentRooms:GetChildren()) do
+			for b,n in pairs(v.Assets:GetDescendants()) do if n:IsA('Sound') then n.PlaybackSpeed = 0; n.Volume = 0; n:Stop(); end end -- windows make noise. get rekt
+		end
+	end)
 end
 
 -- screech alert
