@@ -86,7 +86,7 @@ function bbgui(v)
     local gui = Instance.new('BillboardGui')
     local imglabel = Instance.new('ImageLabel')
     imglabel.Size = UDim2.fromScale(1,1)
-    gui.Size = UDim2.fromScale(5,5)
+    gui.Size = UDim2.fromScale(10,10)
     imglabel.BackgroundTransparency = 1
     imglabel.Image = 'rbxassetid://7949112710'
     imglabel.Parent = gui
