@@ -95,7 +95,7 @@ function bbgui(v)
     --[[local imglabel = Instance.new('ImageLabel')
     imglabel.Size = UDim2.fromScale(1,1)]]
     gui.Size = UDim2.fromScale(5,5)
-    frame.BackgroundTransparency = 0.5
+    frame.BackgroundTransparency = 0.8
     --[[imglabel.BackgroundTransparency = 1
     imglabel.Image = 'rbxassetid://7949112710'
     imglabel.Parent = gui]]
@@ -172,13 +172,13 @@ end)
 
 -- monster detector
 ws.ChildAdded:Connect(function(v)
-    if not ((v.Name == 'RushMoving' or v.Name == 'AmbushMoving' or v.Name == 'SeekMoving') and v:IsA('Model')) then
+    if not ((v.Name == 'RushMoving' or v.Name == 'AmbushMoving' or v.Name == 'SeekMoving' or v.Name == 'A-60' or v.Name == 'A-120') and v:IsA('Model')) then
         return
     end
     local loop = nil
     loop = game['Run Service'].Stepped:Connect(function()
         if (v:FindFirstChildOfClass('BasePart') or v.PrimaryPart) ~= nil then
-            local homepart = v:FindFirstChildOfClass('BasePart') or v.PrimaryPart
+            local homepart = v:FindFirstChildOfClass('BasePart') or v:FindFirstChildWhichIsA('BasePart',true) or v.PrimaryPart
             local mag = game.Players.LocalPlayer:DistanceFromCharacter(homepart.Position)
             if mag < 10000 then
                 getgenv().bbgui(homepart)
