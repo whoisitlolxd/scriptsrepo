@@ -4633,6 +4633,7 @@ CMDs[#CMDs + 1] = {NAME = 'norender', DESC = 'Disable 3d Rendering to decrease t
 CMDs[#CMDs + 1] = {NAME = 'render', DESC = 'Enable 3d Rendering'}
 CMDs[#CMDs + 1] = {NAME = 'setupstuff / doorssetup / dsetup', DESC = 'Sets up stuff for DOORS (noclip, esp, enable playerlist...)'}
 CMDs[#CMDs + 1] = {NAME = 'die / iamdead', DESC = 'Makes you die'}
+CMDs[#CMDs + 1] = {NAME = 'iflingalt', DESC = 'Enabled ALT invisible fling'}
 wait()
 
 for i = 1, #CMDs do
@@ -11983,6 +11984,10 @@ end)
 addcmd('die',{'iamdead'},function(speaker)
     game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").Health = 0
 end)
+
+addcmd('iflingalt',{},function(speaker)
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/o7-Fire/Roblox/master/FEInvisibleFling.lua'))()
+end
 
 updateColors(currentShade1,shade1)
 updateColors(currentShade2,shade2)
