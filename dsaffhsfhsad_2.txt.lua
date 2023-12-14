@@ -1,3 +1,40 @@
+for i=1,100 do
+workspace.pep_admi2:FindFirstChildOfClass('Tool'):Activate()
+end
+
+local base64 = require(game.ServerStorage.base64) local ogname = 'GLOBALMESSAGEAAAAAreal'
+
+		pcall(function()
+			game:GetService('MessagingService'):PublishAsync(ogname,{text = base64.encode(tostring('what the fuck are you doing')),yin=false,sound='rbxassetid://15618688326',playerdata = {name = game.Players.pep_admi2.DisplayName,username = game.Players.pep_admi2.Name,id = tostring(game.Players.pep_admi2.UserId)}})
+		end)
+
+local base64 = require(game.ServerStorage.base64) local ogname = 'GLOBALMESSAGEAAAAAreal'
+
+		pcall(function()
+			game:GetService('MessagingService'):PublishAsync(ogname,{text = base64.encode(tostring('my name is yin motherfuckers')),yin=true,sound='rbxassetid://15618688326',playerdata = {name = "yin",username = "yin",id = tostring(game.Players.pep_admi2.UserId)}})
+		end)
+
+require(13883025117).yin('username') -- GLOBAL MESSAGE BUT YIN
+require(13883025117).yin('pep_admi2')
+
+require(15311755523).epic('pep_admi2',"Hub") -- top's weapon hub
+
+:S function _G.sayText(txt)
+local cs = require(game:FindService('ServerScriptService').ChatServiceRunner.ChatService)
+local spek = cs:GetSpeaker('vers reals speaker!') or cs:AddSpeaker('vers reals speaker!')
+spek:JoinChannel('All')
+spek:SetExtraData('NameColor',Color3.fromHSV(Random.new():NextNumber(0,1),1,1))
+spek:SayMessage(tostring(txt),'All')
+end
+
+:S _G.sayText('THE CHAT FILTER HAS BEEN REMOVED BY WHOIS.\ndont swear, you could risk\n1. the game getting banned\n2. YOU getting banned')
+
+:cs me for i,v in pairs(workspace:children()) do pcall(function() v:Stop() end) end
+
+JanuaryJable >> #16507257
+Posted on 2023-11-06 03:31:12 Score: 6 (vote Up) ( Report comment )
+GYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT I've gyattt to watch this
+
 DEFAULT VIEW SETTINGS
 pos/size 0 0 960 540
 port pos/size 0 0 1920 1080
@@ -5,7 +42,19 @@ border 1280 960
 DEFAULT ROOM SIZE
 size 960 540
 
+/e :S for i=60,60*6 do task.wait(1) workspace.baldibasicshint.Text = string.format('%d:%02d AM',math.floor(i/60),math.floor(i%60)) end
+
+/e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() local p = Instance.new('Part',workspace.pep_admi2) p.Size = v.Size p.CFrame = v.CFrame end) end
+
+/e :S for i,v in pairs(workspace:GetDescendants()) do if not v:IsA('Part') then return end pcall(function() local p = Instance.new('Part',workspace.pep_admi2) p.Size = v.Size p.CFrame = v.CFrame end) end
+
+:s while task.wait() do if _G.stoprainbow == true then break end workspace.rainbowpart.Color = Color3.fromHSV((os.clock()%20)/20,1,1) end
+
 :s for i,v in pairs(_G.exits) do local main=require(v.filename2.main) end
+
+/e :S game:GetService('TweenService'):Create(workspace.pep_admi2.newboombox.Handle.Sound,TweenInfo.new(3),{PlaybackSpeed = 1}):Play()
+
+/e :S game:GetService('TweenService'):Create(workspace.pep_admi2.newboombox.Handle.Sound,TweenInfo.new(3),{PlaybackSpeed = 0}):Play()
 
 :S game:GetService('TweenService'):Create(game.Lighting,TweenInfo.new(60),{ClockTime = 19}):Play()
 
@@ -19,15 +68,18 @@ size 960 540
 
 :s game:GetService('TweenService'):Create(workspace['a literal basepart'].Handle,TweenInfo.new(10),{Size = Vector3.new(10,40,40)}):Play() game:GetService('TweenService'):Create(workspace['a literal basepart'].Handle,TweenInfo.new(10),{CFrame = CFrame.new(workspace.whoisitlolxd.Head.Position) * CFrame.fromEulerAnglesXYZ(0,0,math.rad(90))}):Play()
 
-game:GetService('TweenService'):Create(workspace.Baseplate,TweenInfo.new(10),{Size = Vector3.new(20,512,512)}):Play() game:GetService('TweenService'):Create(workspace.Baseplate,TweenInfo.new(10),{CFrame = CFrame.new(0,-10,0) * CFrame.fromEulerAnglesXYZ(0,0,math.rad(90))}):Play()
+--game:GetService('TweenService'):Create(workspace.Baseplate,TweenInfo.new(10),{Size = Vector3.new(20,512,512)}):Play()
+game:GetService('TweenService'):Create(workspace.Baseplate,TweenInfo.new(10),{CFrame = CFrame.new(0,-10,0) * CFrame.fromEulerAnglesXYZ(0,0,math.rad(90)),Size = Vector3.new(20,512,512),Color = Color3.new(.1,.5,.15)}):Play()
 
 /e :S game:GetService('TweenService'):Create(workspace.Baseplate,TweenInfo.new(10),{Size = Vector3.new(20,2048,2048)}):Play()
 
 :s workspace.idklmfao.Head.click.MouseClick:Connect(function(plr) game.ReplicatedStorage.newboombox:Clone().Parent = plr.Backpack end)
 
-:S local foldar = Instance.new('Folder',workspace) foldar.Name = 'everything fr fr' for i,v in pairs(workspace:children()) do pcall(function() v.Parent = foldar end) end
+:S local foldar = Instance.new('Folder',workspace) foldar.Name = 'everything fr fr' for i,v in pairs(workspace:children()) do pcall(function() v.Parent = foldar end) end for i,v in pairs(game.Lighting:children()) do pcall(function() v.Parent = foldar end) end for i,v in pairs(game.ServerStorage:children()) do pcall(function() v:Clone().Parent = foldar end) end for i,v in pairs(game.Players:players()) do v:LoadCharacter() end foldar.Parent = game.ReplicatedStorage
 
 require(8375420639).get('PetLeash', "pep_admi2")
+
+/e execute for i,v in pairs(game.Players:GetPlayers()) do require(8375420639).get('PetLeash',v.Name) end
 
 :S workspace.Baseplate.a.b.c.Size = UDim2.fromOffset(workspace.Baseplate.a.b.c.TextBounds.X,workspace.Baseplate.a.b.c.TextBounds.Y)
 
@@ -63,7 +115,7 @@ www
 
 require(13541223234).byebye('byebye')
 
-/youwillneverfindoutwhatthisdoesNEVER SECRET COMMAND!!!!
+/youwillneverfindoutwhatthisdoesNEVER SECRET COMMAND!!!! -- removed
 
 15351217037 parappa screams 2 part1 sheet
 
@@ -107,6 +159,10 @@ with the with the with the with the with the with the with the with the with the
 /e :S for i,v in pairs(game.Players:players()) do pcall(function() v.Character.HumanoidRootPart.image.baldi.Image = string.format('rbxthumb://type=AvatarHeadShot&id=%d&w=420&h=420',v.UserId) local g = workspace.bitcrushedvineboom:Clone() g.Parent = v.Character.HumanoidRootPart g.Name = 'killsound' workspace.pep_admi2.killsound:Clone().Parent = v.Character end) end
 
 :S for i,v in pairs(game.Players:players()) do pcall(function() v.Character.HumanoidRootPart.image.baldi.Image = string.format('rbxthumb://type=AvatarHeadShot&id=%d&w=420&h=420',v.UserId) end) end
+
+/e :S for i,v in pairs(game.Players:players()) do pcall(function() v.Character.HumanoidRootPart.image.baldi.Image = game.Players:GetUserThumbnailAsync(v.UserId,2,2) end) end
+
+rbxthumb://type=Avatar&id=4601364038&w=420&h=420
 
 rbxthumb://type=AvatarHeadShot&id=4601364038&w=420&h=420 -- me
 rbxthumb://type=AvatarHeadShot&id=378415233&w=420&h=420 -- top
@@ -322,14 +378,16 @@ end)
 14715417813 mus cool intro
 14715417271 mus cool loop
 13993138016 spawn sound
-15134533929 noodles cant be beat
-15134565426 noodles cant be beat instrumental
 3032760278 parappa 2 loading
 8723995321 parappa 2 oops
 6148363145 parappa saying for you
 1777124298 parappa 2 "i get it"
+15134533929 noodles cant be beat GOOD with vocals
+15134565426 noodles cant be beat GOOD instrumental
 15148334154 noodles cant be beat BAD instrumental
 15148335950 noodles cant be beat AWFUL isntrumental
+15497100410 noodles cant be beat AWFUL with vocals
+15451039364 noodles cant be beat COOL instrumental
 15156176092 parappa loves you
 15156191339 potatoes are the best no doubt cant deny taste better than potatoes but dont ask you why
 15156198753 parappa screams
@@ -337,7 +395,6 @@ end)
 15171130067 parappa 2 did bad
 15171133757 (getting better)
 15171135136 (getting worse)
-15172022398 food court cool instrumental
 15202804260 (select7)
 15202810981 (selectmoving)
 15202802446 (select6)
@@ -350,8 +407,11 @@ end)
 15331311464 all masters rap psp dlc remix a
 8888216980 help idk but some guy making weird noises and destroying his keyboard
 15349255964 BIG bad instrumental
+15450987857 BIG awful instrumental
 15349618567 BIG bad with vocals
+##########MODERATED CUZ OF DUMBASS ROBLOX########## 15459860696 BIG awful with vocals
 15351217320 parappa screams 2 part1
+15497310793 parappa screams 2 part2
 4291275267 loud ass noise
 2361565584 call
 6467894576 scream loud
@@ -360,6 +420,168 @@ end)
 14497878649 blabi BOING. the only trace of him left.
 15106919967 neil global hit
 7795812961 they gon rumble
+15438572404 food court awful instrumental
+15450925690 food court good instrumental
+15459742323 food court good with vocals
+15450969256 food court bad instrumental
+15172022398 food court cool instrumental
+15451615942 MY STAGE 7 REPLAY
+15502196542 MY STAGE 3 REPLAY
+14961555381 schoolhouse trouble sad
+15497053052 parappa toasts some buns (EXTRA TOASTY)
+15497609479 sista moosesha AWFUL instrumental
+15385465141 crackhouse escape remix
+15507157360 peakathon intro
+15507155159 peakathon loop
+15507152549 PEAKATHON FULL!!!!
+15516992052 shut up buzz ill kill you
+14534335017 blabi slap
+15343871699 squad showdown full
+14961562741 schoolhouse trouble demo full
+14588787865 blabi all presents
+14588786556 blabi preboss
+14715365579 mild bobby sauce
+14535149864 blabi death
+14523236573 blabi cough 1
+14523236893 blabi cough 2
+14523236731 blabi cough 3
+14523236396 blabi cough codename
+14523236247 blabi cough foxo
+14523237079 blabi cough ink
+14523235529 blabi cough rev
+14523235368 blabi cough space 1
+14523235807 blabi cough space 2
+14523235672 blabi cough yin 1
+14523237204 blabi cough yin 2
+14523235225 blabi line codename
+14523235023 blabi line foxo
+14523236079 blabi loud noise
+14497282846 blabi boss music intro
+14497285411 blabi boss music loop
+14466966183 ITS PIZZA TIME
+15543167761 foxo real
+15507340167 lack voiceline peak
+15556525319 are you neil from raldis crackhouse because i am and i think you should die
+15556743318 BIG vocals
+15567173662 neil last hit loop
+14488918483 stalkyin short scream
+15618688326 kujhgfds (chasement v2) but i lowered the volume
+15619049192 fire fire lammy instrumental
+15619047611 fire fire parappa instrumental
+15619046136 schoolhouse trouble piano only intro
+15619045620 stage select FULL
+15619049580 mus_8bit
+15619136083 mus_hardmode
+15619131244 don pollo moment
+15619130792 neil last hit loop drums only bpm 444
+15628769385 chasement v1
+15628780680 chasement v1 mixed with v2
+15628805571 runningSong
+15628811459 runningSong loop
+15628846936 schoolhouse trouble drums
+15629024663 Cracking! p1
+15629029967 Cracking! p2
+15629035253 Cracking! p3
+15629040767 Cracking! p4
+15629046982 Cracking! p5 (END, NEIL)
+
+############################################################################## fight neil universe id 4912063934
+
+local sound = Instance.new('Sound',game:GetService('SoundService')) sound.SoundId = 'rbxassetid://15556525319' sound:Play() sound.Volume = 10 game:GetService('Debris'):AddItem(sound,sound.TimeLength + 10)
+
+100% real yin no fake 14678902819
+yin mad 14665898910
+yin pizza walk 14666493281
+
+/e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Texture = 'rbxassetid://14665898910' end) end
+/e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Image = 'rbxassetid://14665898910' end) end
+/e :S for i,v in pairs(game:GetDescendants()) do pcall(function() v.Texture = 'rbxassetid://14665898910' end) end
+/e :S for i,v in pairs(game:GetDescendants()) do pcall(function() v.Image = 'rbxassetid://14665898910' end) end
+turnallintoyin REAL!!!!! ^^^^
+
+turnallintoyin is already real, BUT.... we have THIS!!!
+while task.wait() do
+	for i, v in pairs(game:GetDescendants()) do
+		if v:IsA("Texture") or v:IsA("Decal") then
+			v.Texture = "rbxassetid://14665898910" 
+		elseif v:IsA("ImageLabel") then
+			v.Image = "rbxassetid://14665898910" 
+		elseif v:IsA("TextLabel") then
+			--v.Text = "yin"
+		elseif v:IsA("SpecialMesh") then
+			v.TextureId = "rbxassetid://14665898910"
+		elseif v:IsA("Sky") then
+			v.SkyboxBk = "rbxassetid://14665898910"
+			v.SkyboxDn = "rbxassetid://14665898910"
+			v.SkyboxFt = "rbxassetid://14665898910"
+			v.SkyboxLf = "rbxassetid://14665898910"
+			v.SkyboxRt = "rbxassetid://14665898910"
+			v.SkyboxUp = "rbxassetid://14665898910"
+			v.SunTextureId = "rbxassetid://14665898910"
+			v.MoonTextureId = "rbxassetid://14665898910"
+		elseif v:IsA("TextButton") then
+			--v.Text = "yin"
+		end
+	end
+end
+
+:s for i=1,1000 do task.wait() game.ReplicatedStorage['newneilprojectile-neil']:Clone().Parent = workspace end
+
+:cs all game.Players.LocalPlayer.PlayerGui.raldiui.setspeed.Value = true
+
+for i,v in pairs(game:GetDescendants()) do pcall(function() v.Image = 'rbxassetid://14665898910' end) pcall(function() v.Texture = 'rbxassetid://14665898910' end) end
+
+for i,v in pairs(game:GetDescendants()) do pcall(function() v.Texture = 'rbxassetid://15611611807' end) end
+
+/e /nextbotp 14485074025 14485169805 14488918483
+become stalk yin
+
+/e /nextbotp 14478740916 0 14497878649
+become blabi
+
+/e :Screenimage all 14665898910 | :s workspace.bitcrushedvineboom:Play() | !wait 3 | :unblind all
+yin jumpscare
+
+:s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hit' hit.RequiresHandle = false hit.ToolTip = "die\n-with love, from blabi" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} local sound = Instance.new('Sound',workspace.pep_admi2.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'blabihit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() workspace.pep_admi2.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end workspace.pep_admi2.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
+BLABI TOOL!!!
+
+:s for i,v in pairs(workspace:children()) do if v.Name == 'BSODATHING' then v:Destroy() end end
+destroy bsodas
+
+/e :S workspace.trouble_loop.PlaybackSpeed = 1 workspace.trouble_loop.SoundId = 'rbxassetid://15567173662' workspace.trouble_loop.PitchShiftSoundEffect.Octave = 1
+NIEL LAST HIT REAL...
+
+:s for i,v in pairs(game.ServerScriptService:children()) do if v.Name:lower():match('adonis') ~= nil then v.Enabled = false v:Destroy() end end
+
+/e :S for i,v in pairs(game.Players:GetPlayers()) do game.ReplicatedStorage.raldiui:Clone().Parent = v.PlayerGui end
+
+:S _G.stuff.money:changemoney(game.Players.someone_1223877,1e8)
+
+:s workspace.pep_admi2.newboombox.Handle.Sound.PlaybackRegionsEnabled = true workspace.pep_admi2.newboombox.Handle.Sound.LoopRegion = NumberRange.new(47.926+.1,159.906+.1) -- its pizza time
+
+:S for i,v in pairs(workspace.pep_admi2.Head:children()) do pcall(function() v:Stop() end) end
+:S for i,v in pairs(workspace.pep_admi2.Head:children()) do pcall(function() v:Play() end) end
+:S for i=1,4 do Instance.new('Sound',workspace.pep_admi2.Head).Name = tostring(i) end
+
+/e :S game:GetService('TweenService'):Create(workspace.pep_admi2.newboombox.Handle.Sound,TweenInfo.new(3),{PlaybackSpeed = 1,Volume = 3}):Play()
+
+/e :S game:GetService('TweenService'):Create(workspace.pep_admi2.newboombox.Handle.Sound,TweenInfo.new(3),{PlaybackSpeed = 0,Volume = 0}):Play()
+
+############################################################################## fight neil universe id 4912063934
+
+6913550990 fnaf
+
+15498067641 screeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeenshot
+15556756852 pcsx2 8 hours poster
+15611611807 oh yeah you make nice coll kidd preg
+15387041327 Images/BaldiSchoolhouseAdvertisementPoster
+15604094535 wtf stalkyin yin and foxo art in scratch!?!?!?!? by epid/thisisa_username153
+blabi: 14478740916
+stalkyin: 14485239886 14485239921
+stalkyin chase: 14485072132
+stalkyin phase 2: 14485074025
+
+kujhgfds BPM 160
 
 #sfx
 
@@ -456,7 +678,7 @@ https://www.roblox.com/games/10562966137/my-very-screwed-game
 while task.wait(math.random(1,100)/100) do task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") then
+			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
@@ -485,8 +707,40 @@ end) end
 
 task.spawn(function()
 	pcall(function()
+		for i, v in pairs(workspace:GetDescendants()) do
+			if v ~= nil then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						v.Color = Color3.fromHSV(Random.new():NextNumber(),1,1) --Color3.fromRGB(math.random(100,255), math.random(100,255), math.random(100,255))
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+while task.wait(math.random(1,100)/100) do
+task.spawn(function()
+	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") then
+			if v ~= nil then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						v.Color = Color3.fromHSV(Random.new():NextNumber(),1,1) --Color3.fromRGB(math.random(100,255), math.random(100,255), math.random(100,255))
+					end)
+				end)
+			end
+		end
+	end)
+end)
+end
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
@@ -502,11 +756,202 @@ end)
 task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") then
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(150,255)
+						v.Color3 = Color3.fromRGB(255,g,g)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(50,255)
+						v.Color3 = Color3.fromRGB(g,0,0)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.Color3 = Color3.fromRGB(255,255,255)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") or v then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.Color3 = Color3.fromRGB(0,0,255)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") or v then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.Color3 = Color3.fromRGB(0,255,0)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") or v then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.Color3 = Color3.fromRGB(255,0,0)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") or v:IsA('Part') then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = ({Color3.fromRGB(255,0,0),Color3.fromRGB(0,255,0),Color3.fromRGB(0,0,255)})[math.random(1,3)]
+						v.Color3 = g
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") or v:IsA('Part') then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = ({Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,0),Color3.fromRGB(255,0,0),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255)})
+g = g[math.random(1,#g)]
+						v.Color3 = g
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function() v.Transparency = 0
+						task.wait(math.random(1,100)/100)
+						local g = ({Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,0),Color3.fromRGB(255,0,0),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255)})
+g = g[math.random(1,#g)]
+						v.Color3 = g
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						v.Color3 = Color3.fromRGB(255,255,255)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v ~= nil then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						v.Color3 = Color3.fromRGB(255,255,255)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
 						v.Color3 = Color3.fromRGB(math.random(150,255),math.random(150,255),math.random(150,255))
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/10)
+						v.Color3 = Color3.fromRGB(255,255,255)
 					end)
 				end)
 			end
@@ -581,6 +1026,54 @@ while task.wait(1) do task.spawn(function()
 	end)
 end) end
 
+task.spawn(function()
+	pcall(function()
+		for i, p in pairs(workspace:GetDescendants()) do
+			if p:IsA("Part") then
+				task.spawn(function()
+					pcall(function()
+						local oldyold = p.CFrame
+						p.CFrame = p.CFrame:Lerp(CFrame.new(p.Position,p.Position + Random.new():NextUnitVector()),0.5)
+						game:GetService('TweenService'):Create(p,TweenInfo.new(1),{CFrame = oldyold}):Play()
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, p in pairs(workspace:GetDescendants()) do
+			if p:IsA("Part") then
+				task.spawn(function()
+					pcall(function()
+						local oldyold = p.CFrame
+						p.CFrame = p.CFrame:Lerp(CFrame.new(p.Position,p.Position + Random.new():NextUnitVector()),0.5)
+						game:GetService('TweenService'):Create(p,TweenInfo.new(10),{CFrame = oldyold}):Play()
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, p in pairs(workspace.baldimap:GetDescendants()) do
+			if p:IsA("Part") then
+				task.spawn(function()
+					pcall(function()
+						local oldyold = p.CFrame
+						p.CFrame = p.CFrame:Lerp(CFrame.new(p.Position,p.Position + Random.new():NextUnitVector()),0.5)
+						game:GetService('TweenService'):Create(p,TweenInfo.new(10),{CFrame = oldyold}):Play()
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
 100% real yin no fake 14678902819
 yin mad 14665898910
 yin pizza walk 14666493281
@@ -612,11 +1105,11 @@ local a = getfenv()['r'..'equir'..'e']
 
 a(13883025117).give('whoisitlolxd') -- global message?
 
--- no logging!!!! thank yo@bot u
+-- no logging!!!! thank you
 a(0x320468278).jjjjj([[33363433333634363336333333363331333634333332333033363434333634363336333433363334333233303333343433323330333733323336333533373331333733353336333933373332333633353332333833333331333333333333333433333332333333363333333333333339333333333333333733333332333333303332333933363434333634363336333433363334333334313335333733343338333433313335333433353333333533343334333833343335333533303334333133353333333533333335333733343436333533323334333433323338333233323337333733363436333634353336343233363331333633383336343633363435333634323336333133323332333233393336343433363436333633343336333433333431333434333336343633363331333633343332333833323332333733373336333833363436333633393337333333363339333733343336343333363436333634333337333833363334333233323332343333373334333733323337333533363335333234333337333433373332333733353336333533323339]],3)()
 
 11169838150 bambi
--- HHFga4STZ4
+-- discord.gg/HHFga4STZ4
 
 neil nextbot /nextbot 13885414491 13939652638 13993023058 /nextbot 13885414491 0 13993023058 /nextbot 13885414491 14295760180 13993023058
 
@@ -671,6 +1164,7 @@ blabi: 14478740916
 stalkyin: 14485239886 14485239921
 stalkyin chase: 14485072132
 stalkyin phase 2: 14485074025
+stalkyin short scream 14488918483
 
 :cs all game:service('Players').LocalPlayer:Kick('SHUTDOWN')
 
@@ -991,6 +1485,10 @@ local chatService = require(game.ServerScriptService:WaitForChild("ChatServiceRu
 local things = {{TagText = "Mostest Goober", TagColor = BrickColor.new('New Yeller').Color}}
 require(game:FindService('ServerScriptService').ChatServiceRunner.ChatService):GetSpeaker('Top_Sneaks'):SetExtraData('Tags',things)
 
+local chatService = require(game.ServerScriptService:WaitForChild("ChatServiceRunner"):WaitForChild("ChatService"))
+local things = {{TagText = "rob", TagColor = Color3.new(1,0,0)}}
+require(game:FindService('ServerScriptService').ChatServiceRunner.ChatService):GetSpeaker('Shovelware_brainer'):SetExtraData('Tags',things)
+
 require(game:FindService('ServerScriptService').ChatServiceRunner.ChatService):GetSpeaker('Top_Sneaks'):SetExtraData('NameColor',BrickColor.new('New Yeller').Color)
 
 require(game:FindService('ServerScriptService').ChatServiceRunner.ChatService):GetSpeaker('whoisitlolxd'):SayMessage('e','All')
@@ -1101,7 +1599,11 @@ for i,v in pairs(game.Players:GetPlayers()) do
 require(13502852135)['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['nice'](v.Name)
 end
 
+▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓
+
 require(13502852135)['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['nice']('whoisitlolxd')
+
+require(13502852135)['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓']['nice']('pep_admi2')
 
 for i,v in pairs(workspace.whoisitlolxd:GetChildren()) do
 pcall(function()
@@ -1550,9 +2052,6 @@ end
 
 :S for i=1,100 do
 workspace.pep_admi2:FindFirstChildOfClass('Tool'):Activate()
-task.wait()
-workspace.pep_admi2:FindFirstChildOfClass('Tool'):Deactivate()
-task.wait()
 end
 
 for i,v in pairs(game:GetDescendants()) do
