@@ -1,3 +1,6 @@
+:S _G.setTag = function(user,color,text) local things = {{TagText = text, TagColor = color}}
+require(game:FindService('ServerScriptService').ChatServiceRunner.ChatService):GetSpeaker(user):SetExtraData('Tags',things) end
+
 for i=1,100 do
 workspace.pep_admi2:FindFirstChildOfClass('Tool'):Activate()
 end
@@ -482,9 +485,14 @@ end)
 15629024663 Cracking! p1
 15629029967 Cracking! p2
 15629035253 Cracking! p3
-15629040767 Cracking! p4
+15634852910 Cracking! p4 1/3
+15634861638 Cracking! p4 2/3
+15635495929 Cracking! p4 3/3
 15629046982 Cracking! p5 (END, NEIL)
 
+################## not working audios
+15634867016 Cracking! p4 3/3 ########### not working, reuploaded!
+15629040767 Cracking! p4 ########### not working, reuploaded!
 ############################################################################## fight neil universe id 4912063934
 
 local sound = Instance.new('Sound',game:GetService('SoundService')) sound.SoundId = 'rbxassetid://15556525319' sound:Play() sound.Volume = 10 game:GetService('Debris'):AddItem(sound,sound.TimeLength + 10)
@@ -492,6 +500,8 @@ local sound = Instance.new('Sound',game:GetService('SoundService')) sound.SoundI
 100% real yin no fake 14678902819
 yin mad 14665898910
 yin pizza walk 14666493281
+
+micahmama9 < omg guys this guy is party yin
 
 /e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Texture = 'rbxassetid://14665898910' end) end
 /e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Image = 'rbxassetid://14665898910' end) end
@@ -502,6 +512,32 @@ turnallintoyin REAL!!!!! ^^^^
 turnallintoyin is already real, BUT.... we have THIS!!!
 while task.wait() do
 	for i, v in pairs(game:GetDescendants()) do
+		if v:IsA("Texture") or v:IsA("Decal") then
+			v.Texture = "rbxassetid://14665898910" 
+		elseif v:IsA("ImageLabel") then
+			v.Image = "rbxassetid://14665898910" 
+		elseif v:IsA("TextLabel") then
+			--v.Text = "yin"
+		elseif v:IsA("SpecialMesh") then
+			v.TextureId = "rbxassetid://14665898910"
+		elseif v:IsA("Sky") then
+			v.SkyboxBk = "rbxassetid://14665898910"
+			v.SkyboxDn = "rbxassetid://14665898910"
+			v.SkyboxFt = "rbxassetid://14665898910"
+			v.SkyboxLf = "rbxassetid://14665898910"
+			v.SkyboxRt = "rbxassetid://14665898910"
+			v.SkyboxUp = "rbxassetid://14665898910"
+			v.SunTextureId = "rbxassetid://14665898910"
+			v.MoonTextureId = "rbxassetid://14665898910"
+		elseif v:IsA("TextButton") then
+			--v.Text = "yin"
+		end
+	end
+end
+
+workspace only
+while task.wait() do
+	for i, v in pairs(workspace:GetDescendants()) do
 		if v:IsA("Texture") or v:IsA("Decal") then
 			v.Texture = "rbxassetid://14665898910" 
 		elseif v:IsA("ImageLabel") then
@@ -542,8 +578,11 @@ become blabi
 /e :Screenimage all 14665898910 | :s workspace.bitcrushedvineboom:Play() | !wait 3 | :unblind all
 yin jumpscare
 
-:s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hit' hit.RequiresHandle = false hit.ToolTip = "die\n-with love, from blabi" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} local sound = Instance.new('Sound',workspace.pep_admi2.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'blabihit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() workspace.pep_admi2.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end workspace.pep_admi2.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
+:s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hitblabi' hit.RequiresHandle = false hit.ToolTip = "die\n-with love, from blabi" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} local sound = Instance.new('Sound',hit.Parent.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'blabihit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
 BLABI TOOL!!!
+
+:s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hitstalkyin' hit.RequiresHandle = false hit.ToolTip = "rahhhh" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14488918483,14488918483,14488918483} local sound = Instance.new('Sound',hit.Parent.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'stalkyinhit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
+yin stalk TOOL!!!
 
 :s for i,v in pairs(workspace:children()) do if v.Name == 'BSODATHING' then v:Destroy() end end
 destroy bsodas
@@ -2605,3 +2644,43 @@ EVEN MORE SFX!!!!
 8961503928 Yamete
 
 15385465141 crackhouse escape remix
+
+
+
+###################################fight neil new desc
+
+just stop.
+
+
+CHECK OUT THE GROUP!!! https://www.roblox.com/groups/33057792/FIGHT-NEIL-GROUP
+
+game by the fight neil dev team (that's us!)
+
+credits:
+raldi's rackhouse by cuzsie and ronezkj15
+a bunch of audios by nicec00lkidd games and others (check them out!)
+foxo's fun schoolhouse by isfoxo and nicec00lkidd games
+foxo/stalkyin sprites by isfoxo
+leo's amazing subjects by rexhax games
+spongebob's basics remastered by dillonleft
+
+changelog in game i think!
+
+we got 99+ members yay...
+###################################fight neil OLD desc
+
+CHECK OUT THE GROUP!!! https://www.roblox.com/groups/33057792/FIGHT-NEIL-GROUP
+
+blabi is gone.
+game by ME (@whoisitlolxd) and SOME OTHER PEOPLE 
+
+credits: raldi's rackhouse by cuzsie and ronezkj15 
+a bunch of audios by nicec00lkidd games and others (check them out!)
+foxo's fun schoolhouse by isfoxo and nicec00lkidd games 
+foxo/stalkyin sprites by isfoxo 
+leo's amazing subjects by rexhax games 
+spongebob's basics remastered by dillonleft 
+
+changelog in game i think! 
+
+we got 99+ members yay...
