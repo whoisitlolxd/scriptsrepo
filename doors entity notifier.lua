@@ -141,7 +141,7 @@ getgenv().functions.hb = {}
 getgenv().functions.hb.nowindows = function()
 	pcall(function()
 		for i,v in pairs(ws.CurrentRooms:GetChildren()) do
-			for b,n in pairs(v.Assets:GetDescendants()) do if n:IsA('Sound') then n.PlaybackSpeed = 0; n.Volume = 0; n:Stop(); end end -- windows make noise. get rekt
+			for b,n in pairs(v.Assets:GetDescendants()) do if n:IsA('Sound') then n.PlaybackSpeed = 0; n.Volume = 0; n.SoundId = 'rbxassetid://0' n:Stop(); end end -- windows make noise. get rekt
 		end
 	end)
 end
