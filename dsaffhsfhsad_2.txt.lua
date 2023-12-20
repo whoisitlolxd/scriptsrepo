@@ -1,3 +1,15 @@
+/e :s while task.wait() do if game.Players:FindFirstChild('pep_admi2') == nil then require(12745425486)('no real whois detected so uhhhh server dies haha!!') end end
+
+dude this dream was already crazy enough but right when i woke up there was this discord part right
+and guess who was there
+isfoxo/jinx.
+yeah im not lying my brain actually generated this lmfao
+other than that i can not remember anything else
+
+:s for i,v in pairs(_G.exits) do local main = require(v.filename2.main) main.trigger.Position = main.originalposition end
+
+/e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Name = 'fakebillboard-'..v.Name end) end
+
 :S _G.setTag = function(user,color,text) local things = {{TagText = text, TagColor = color}}
 require(game:FindService('ServerScriptService').ChatServiceRunner.ChatService):GetSpeaker(user):SetExtraData('Tags',things) end
 
@@ -169,6 +181,7 @@ rbxthumb://type=Avatar&id=4601364038&w=420&h=420
 
 rbxthumb://type=AvatarHeadShot&id=4601364038&w=420&h=420 -- me
 rbxthumb://type=AvatarHeadShot&id=378415233&w=420&h=420 -- top
+rbxthumb://type=AvatarHeadShot&id=2506079906&w=420&h=420 -- EPID
 rbxthumb://type=AvatarHeadShot&id=%d&w=420&h=420
 require(12736310446)
 
@@ -283,6 +296,19 @@ task.spawn(function()
 			if v:IsA('Sound') then
 				-- the soy
 				v.SoundId = 'rbxassetid://14919342121'
+				v.Volume = 10
+				v.RollOffMaxDistance = 10000
+			end
+		end
+	end
+end)
+
+task.spawn(function()
+	while task.wait(.1) do
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA('Sound') then
+				-- blabi blabi blabi
+				v.SoundId = 'rbxassetid://14497878649'
 				v.Volume = 10
 				v.RollOffMaxDistance = 10000
 			end
@@ -412,7 +438,6 @@ end)
 15349255964 BIG bad instrumental
 15450987857 BIG awful instrumental
 15349618567 BIG bad with vocals
-##########MODERATED CUZ OF DUMBASS ROBLOX########## 15459860696 BIG awful with vocals
 15351217320 parappa screams 2 part1
 15497310793 parappa screams 2 part2
 4291275267 loud ass noise
@@ -474,7 +499,6 @@ end)
 15619046136 schoolhouse trouble piano only intro
 15619045620 stage select FULL
 15619049580 mus_8bit
-15619136083 mus_hardmode
 15619131244 don pollo moment
 15619130792 neil last hit loop drums only bpm 444
 15628769385 chasement v1
@@ -489,10 +513,18 @@ end)
 15634861638 Cracking! p4 2/3
 15635495929 Cracking! p4 3/3
 15629046982 Cracking! p5 (END, NEIL)
+15686593991 untitled trouble tinyleaks loop
+15686601393 untitled trouble as of 19/12/2023 7:52 pm
+15686848169 HARD MODE REUPLOAD (SET SPEED TO 0.8)
+15688373031 cursed woody (SET SPEED TO 0.8)
 
 ################## not working audios
+
 15634867016 Cracking! p4 3/3 ########### not working, reuploaded!
 15629040767 Cracking! p4 ########### not working, reuploaded!
+15459860696 BIG awful with vocals ######### moderation
+15619136083 mus_hardmode ####### copyright
+
 ############################################################################## fight neil universe id 4912063934
 
 local sound = Instance.new('Sound',game:GetService('SoundService')) sound.SoundId = 'rbxassetid://15556525319' sound:Play() sound.Volume = 10 game:GetService('Debris'):AddItem(sound,sound.TimeLength + 10)
@@ -714,6 +746,24 @@ Apaga la tableta y oprime a la vez las teclas "Volumen +" y "Encendido", hasta q
 
 https://www.roblox.com/games/10562966137/my-very-screwed-game
 
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v ~= nil then
+				task.spawn(function()
+task.wait(math.random(1,100)/100)
+					pcall(function()
+						v.Color3 = Color3.fromRGB(0,0,0)
+					end)
+					pcall(function()
+						v.Color = Color3.fromRGB(0,0,0)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
 while task.wait(math.random(1,100)/100) do task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
@@ -830,7 +880,7 @@ task.spawn(function()
 			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
-						task.wait(math.random(1,100)/100)
+						task.wait(math.random(1,100)/10)
 						local g = math.random(100,255)
 						v.Color3 = Color3.fromRGB(255,255,255)
 					end)
@@ -843,7 +893,7 @@ end)
 task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") or v:IsA("Decal") or v then
+			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
@@ -859,7 +909,7 @@ end)
 task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") or v:IsA("Decal") or v then
+			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
@@ -875,7 +925,7 @@ end)
 task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") or v:IsA("Decal") or v then
+			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
@@ -914,6 +964,25 @@ task.spawn(function()
 						local g = ({Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,0),Color3.fromRGB(255,0,0),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255)})
 g = g[math.random(1,#g)]
 						v.Color3 = g
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = ({Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,255),Color3.fromRGB(255,0,0),Color3.fromRGB(255,0,0),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255),Color3.fromRGB(255,255,255)})
+g = g[math.random(1,#g)]
+						v.Color3 = g
+v.Transparency = 0
+v.ZIndex = -99999999999
 					end)
 				end)
 			end
