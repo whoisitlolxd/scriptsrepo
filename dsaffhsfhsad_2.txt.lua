@@ -1,3 +1,9 @@
+v.Velocity = Random.new():NextUnitVector()*1000
+
+/e :cs all while task.wait() do game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40 end
+
+/e :s for i=1,15 do task.wait(.1) _G.neil:setbosshit(true) _G.neil:sethealth(_G.neil.health+2) end
+
 /e :s while task.wait() do if game.Players:FindFirstChild('pep_admi2') == nil then require(12745425486)('no real whois detected so uhhhh server dies haha!!') end end
 
 dude this dream was already crazy enough but right when i woke up there was this discord part right
@@ -517,6 +523,8 @@ end)
 15686601393 untitled trouble as of 19/12/2023 7:52 pm
 15686848169 HARD MODE REUPLOAD (SET SPEED TO 0.8)
 15688373031 cursed woody (SET SPEED TO 0.8)
+15706770923 bruhing
+15707311058 red 2 instrumental
 
 ################## not working audios
 
@@ -613,6 +621,8 @@ yin jumpscare
 :s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hitblabi' hit.RequiresHandle = false hit.ToolTip = "die\n-with love, from blabi" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} local sound = Instance.new('Sound',hit.Parent.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'blabihit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
 BLABI TOOL!!!
 
+:s local g = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} for i,v in pairs(g) do g[i] = 'rbxassetid://'..tostring(v) end _G.neil:setcustomhitsoundtable(g) _G.neil:setcustomhitsound2(nil) _G.neil:setiscustom(true)
+
 :s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hitstalkyin' hit.RequiresHandle = false hit.ToolTip = "rahhhh" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14488918483,14488918483,14488918483} local sound = Instance.new('Sound',hit.Parent.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'stalkyinhit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
 yin stalk TOOL!!!
 
@@ -647,6 +657,7 @@ NIEL LAST HIT REAL...
 15611611807 oh yeah you make nice coll kidd preg
 15387041327 Images/BaldiSchoolhouseAdvertisementPoster
 15604094535 wtf stalkyin yin and foxo art in scratch!?!?!?!? by epid/thisisa_username153
+15707035258 nice and cnb's nightmare
 blabi: 14478740916
 stalkyin: 14485239886 14485239921
 stalkyin chase: 14485072132
@@ -753,10 +764,10 @@ task.spawn(function()
 				task.spawn(function()
 task.wait(math.random(1,100)/100)
 					pcall(function()
-						v.Color3 = Color3.fromRGB(0,0,0)
+						v.Color3 = Color3.fromRGB(50,50,50)
 					end)
 					pcall(function()
-						v.Color = Color3.fromRGB(0,0,0)
+						v.Color = Color3.fromRGB(50,50,50)
 					end)
 				end)
 			end
@@ -880,7 +891,7 @@ task.spawn(function()
 			if v:IsA("Texture") or v:IsA("Decal") then
 				task.spawn(function()
 					pcall(function()
-						task.wait(math.random(1,100)/10)
+						task.wait(math.random(1,100)/100)
 						local g = math.random(100,255)
 						v.Color3 = Color3.fromRGB(255,255,255)
 					end)
@@ -925,12 +936,22 @@ end)
 task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") or v:IsA("Decal") then
+			if v:IsA("Texture") or v:IsA("Decal") or v ~= nil then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
 						local g = math.random(100,255)
 						v.Color3 = Color3.fromRGB(255,0,0)
+					end)
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.Color = Color3.fromRGB(v.Color.R * 255,0,0)
+					end)
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.ImageColor3 = Color3.fromRGB(v.ImageColor3.R * 255,0,0)
 					end)
 				end)
 			end
@@ -1085,20 +1106,18 @@ while task.wait(1) do task.spawn(function()
 end) end
 
 while task.wait(1) do task.spawn(function()
-	pcall(function()
 		for i, p in pairs(workspace:GetDescendants()) do
 			if p:IsA("Part") then
 				task.spawn(function()
-					pcall(function()
-						if math.random(1,5) ~= 4 then return end
-						local oldyold = p.CFrame
+						--if math.random(1,5) ~= 4 then return end
+						local oldyold2 = p.CFrame
 						p.CFrame = p.CFrame:Lerp(CFrame.new(p.Position,p.Position + Random.new():NextUnitVector()),0.25)
+local oldyold = p.CFrame
+p.CFrame = oldyold2
 						game:GetService('TweenService'):Create(p,TweenInfo.new(1),{CFrame = oldyold}):Play()
-					end)
 				end)
 			end
 		end
-	end)
 end) end
 
 while task.wait(1) do task.spawn(function()
@@ -1119,19 +1138,15 @@ while task.wait(1) do task.spawn(function()
 end) end
 
 while task.wait(1) do task.spawn(function()
-	pcall(function()
 		for i, p in pairs(workspace.baldimap:GetDescendants()) do
 			if p:IsA("Part") then
 				task.spawn(function()
-					pcall(function()
 						local oldyold = p.CFrame
 						p.CFrame = p.CFrame:Lerp(CFrame.new(p.Position,p.Position + Random.new():NextUnitVector()),0.5)
 						game:GetService('TweenService'):Create(p,TweenInfo.new(1),{CFrame = oldyold}):Play()
-					end)
 				end)
 			end
 		end
-	end)
 end) end
 
 task.spawn(function()
