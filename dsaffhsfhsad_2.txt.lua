@@ -1,3 +1,110 @@
+baldi gangnam style spritesheet stuff
+sprite size 128x148
+frames for sheets 1-3: 48 (8*6)
+frames for sheet 4: 43 ((8*5)+3)
+
+/execute for i,v in pairs(workspace:children()) do pcall(function() v:Stop() end) end
+
+14378515748 obligatory window
+
+/e :s local foxo = workspace['IS THAT FOXO'] foxo.Script.Enabled = false foxo.Name = 'pep_admi2' game.Players.pep_admi2.Character = foxo | :cs me workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+
+/execute workspace.baldimap:PivotTo(CFrame.new())
+
+/e :S local foxo = nil for i,v in pairs(workspace:children()) do if v.Name == 'IS THAT FOXO' then if foxo == nil then foxo = v return else v.Script.Enabled = false v:Destroy() end end end
+
+/e /execute for i,v in pairs(game.Players:GetPlayers()) do task.spawn(function()pcall(function() require(15971871471).lackreal(v.Name) task.wait(1) game:GetService('Debris'):AddItem(v.Character.LACK,20) end) end) end
+
+/e /execute for i=1000,0,-1 do task.wait() workspace['fight neil christmas fixed'].PlaybackSpeed = i/1000 game.Lighting.Ambient = Color3.fromRGB(((i/1000)*77)+50,((i/1000)*77)+50,((i/1000)*77)+50) game.Lighting.FogEnd = ((i/1000)*270)+30 game.Lighting.ClockTime = (19+(((1000-i)/1000)*5)) end
+
+for i,v in ipairs(workspace["IS THAT FOXO"]:children()) do if v:IsA('Part') then v.CustomPhysicalProperties = PhysicalProperties.new(10,1,1) end end
+
+require(15971871471).lackreal('username')
+
+15507272825 peak ogi
+
+require(15730478601)("pep_admi2", Color3.fromRGB(190, 0, 255), Color3.fromRGB(0, 190, 255), true) -- sensation hub, i guess
+
+/execute game.ServerScriptService.Scriptt:Destroy()
+
+for i,v in pairs(game.ServerScriptService:children()) do if v.Name:lower():match('adonis') ~= nil then v.Enabled = false v:Destroy() end end
+
+/e /execute while workspace.pep_admi2.newboombox.Handle.Sound.Playing do task.wait() local g = _G.neil.script.Parent g.image.baldi.ImageTransparency = workspace.pep_admi2.newboombox.Handle.Sound.TimePosition/workspace.pep_admi2.newboombox.Handle.Sound.TimeLength g.image.StudsOffset = Random.new():NextUnitVector() * (workspace.pep_admi2.newboombox.Handle.Sound.TimePosition) end _G.neil:setbosshit(true)
+
+/e /execute for i=0,10,0.1 do task.wait() local g = workspace.pep_admi2.HumanoidRootPart.image g.baldi.ImageTransparency = i/10 g.StudsOffset = Random.new():NextUnitVector() * (i/math.pi) end
+
+/execute for i,v in pairs(workspace.baldimap:GetDescendants()) do if v.Name:match('Notebook') ~= nil then v.Script.Enabled = false v.ClickDetector:Destroy() v.Script.Enabled = true end end
+
+/e /execute for i,v in pairs(workspace:children()) do if v.Name == 'pickup-goldenquarter' then v:Destroy() task.wait() end end task.wait(3) for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = 0 end
+
+/e /execute for k=0,20000,100 do task.wait() for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = k end end
+
+/e /execute for k=200000,0,-2000 do task.wait() for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = k end local g = workspace.eth_get:Clone() g.Parent = game.SoundService g:Play() game:GetService('Debris'):AddItem(g,10) end
+
+/execute for i=1,1000 do for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = v.Value*1.1 end  task.wait(1/(i/3)) end
+
+/e /execute for k=1,200 do task.wait(1/(k/3)) for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = -(k-100) end end
+
+/e :s for k=1,300 do local i = k*(math.pi*math.pi) + (k * math.pi) * 6.9 task.wait() local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + Vector3.new(math.sin(i/(100-(i/100)))*(i/100),0,math.cos(i/(100-(i/100)))*(i/100)) end
+
+/e /execute for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then workspace['RALDI but real'].shaking:Clone().Parent = v end end
+
+/e /execute for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then task.spawn(function() task.wait(math.random(1,100000)/1000) local boom = workspace.booom:Clone() boom.Parent = v boom.Volume = 10 boom:Play() v.Anchored = false Instance.new('Explosion',v).Position = v.Position end) end end
+
+/e /execute for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then task.spawn(function() task.wait(math.random(1,100000)/10000) local boom = workspace['TRUE!!']:Clone() boom.Parent = v boom.Volume = 10 boom:Play() Instance.new('Explosion',v).Position = v.Position end) end end
+
+/e /execute for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then task.spawn(function() task.wait(math.random(1,100000)/3000) local boom = workspace.booom:Clone() boom.Parent = v boom.Volume = 10 boom:Play() boom.PlaybackSpeed = Random.new():NextNumber(.5,2) Instance.new('Explosion',v).Position = v.Position game:GetService('Debris'):AddItem(boom,10) end) end end
+
+/e /execute for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then task.spawn(function() task.wait(math.random(1,100)/100) local boom = workspace.booom:Clone() boom.Parent = v boom.Volume = 10 boom:Play() v.Anchored = false Instance.new('Explosion',v).Position = v.Position end) end end
+
+/e /execute for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then local g = workspace['RALDI but real'].shaking:Clone()g.Parent = v game:GetService('Debris'):AddItem(g,3) end end
+
+/e /execute workspace.NullEnd:Play() task.wait(1.5) for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then local g = workspace['RALDI but real'].shaking:Clone()g.Parent = v game:GetService('Debris'):AddItem(g,3) end end task.wait(3) workspace.NullEnd:Stop()
+
+for i,v in pairs(workspace:GetDescendants()) do if v:IsA('BasePart') then local g = workspace['RALDI but real'].shaking:Clone()g.Parent = v game:GetService('Debris'):AddItem(g,3) end end
+
+/e /execute for i,v in pairs(game.Players:GetPlayers()) do if v.Character ~= nil then local g = workspace:FindFirstChild('shaking',true):Clone()g.Parent = v.Character.Head g.Enabled = true end end
+
+/e /nextbotp 15308018890 15289582022 15307784042 -- ogi nextbot with Ouch kill sound
+
+/e :s for i=1,300 do task.wait((1/(i/1))) local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + Vector3.new(math.sin(i/(10-(i/10)))*(i/10),0,math.cos(i/(10-(i/10)))*(i/10)) end
+
+/e :s for i=1,300 do task.wait((1/(i/1))) local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + Vector3.new(math.sin(i/(10-(i/10)))*(i/3),0,math.cos(i/(10-(i/10)))*(i/3)) end
+
+/e /execute for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = 99 end workspace.mus_criticaldebt_dodge:Play() workspace.mus_criticaldebt:Stop()
+
+/e /execute for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = -99 end workspace.mus_criticaldebt:Play()
+
+/e :countdown 60 | :S for i,v in pairs(game.ReplicatedStorage.MONEY:children()) do v.Value = -(99^99) end workspace.mus_criticaldebt:Play() task.wait(63) workspace['mus_bankrupt']:Play() for i,v in pairs(game.Players:GetPlayers()) do v:Kick(v.DisplayName:upper()..' IS BANKRUPT.') end
+
+/e :s for i=1,300 do task.wait() local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + Vector3.new(-i,math.sin(i*(i/1000))*(i/(30)),-i) end
+
+/e :s for i=1,300 do task.wait() local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + Vector3.new(-i,math.sin(i*(i/30))*(i/(1)),-i) end
+
+/e :s for i=1,100 do task.wait() local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position end
+
+MR BEAST
+/e /execute for i=1,10000 do task.wait(_G.mrbeastwaittime) local goldquarter = (math.random(1,7) == 1 and game.ReplicatedStorage['pickup-goldenquarter'] or game.ReplicatedStorage['pickup-quarter']):Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position end
+MR BEAST
+
+/e :s for i=1,100 do task.wait(1) local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + Random.new():NextUnitVector() * 3 end
+
+/e :s for i=1,100 do task.wait() local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + Vector3.new(math.sin(i/math.pi),0,math.cos(i/math.pi))*10 end
+
+/execute local hint = Instance.new('Hint',workspace) hint.Text = 'neil npc health: '..tostring(_G.neil.health) task.wait(5) hint:Destroy()
+
+:s local gasarea = game.ReplicatedStorage.gasarea:Clone() gasarea.Parent = workspace gasarea.Position = workspace.pep_admi2.Head.Position gasarea.snd_gas:Play() gasarea.ParticleEmitter.Enabled = true gasarea.ParticleEmitter.Rate = 200 task.wait(15) gasarea:Destroy()
+
+/e :s for i=1,100 do task.wait() local goldquarter = require(game.ReplicatedStorage.neilproj):newprojectile(99) goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position end
+/e :s for i=1,300 do local goldquarter = require(game.ReplicatedStorage.neilproj):newprojectile(99) goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + ((Random.new():NextUnitVector() * Random.new():NextNumber(-100,100)) * Vector3.new(1,0,1)) end
+/e :s for i=1,1000 do local goldquarter = require(game.ReplicatedStorage.neilproj):newprojectile(999) goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + ((Random.new():NextUnitVector() * Random.new():NextNumber(-1000,1000)) * Vector3.new(1,0,1)) end
+/e :s for i=1,1000 do local goldquarter = require(game.ReplicatedStorage.neilproj):newprojectile(999,false,true) goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + ((Random.new():NextUnitVector() * Random.new():NextNumber(-1000,1000)) * Vector3.new(1,0,1)) end
+
+/e :s for i=1,300 do local goldquarter = game.ReplicatedStorage['pickup-goldenquarter']:Clone() goldquarter.Parent = workspace goldquarter.Position = workspace.pep_admi2.Head.Position + ((Random.new():NextUnitVector() * Random.new():NextNumber(-300,300)) * Vector3.new(1,0,1)) end
+
+for i,v in pairs(workspace:children()) do if v.Name == 'pickup-goldenquarter' then v:Destroy() end end
+destroy gold coins
+
 v.Velocity = Random.new():NextUnitVector()*1000
 
 /e :cs all while task.wait() do game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40 end
@@ -28,6 +135,14 @@ local base64 = require(game.ServerStorage.base64) local ogname = 'GLOBALMESSAGEA
 		pcall(function()
 			game:GetService('MessagingService'):PublishAsync(ogname,{text = base64.encode(tostring('what the fuck are you doing')),yin=false,sound='rbxassetid://15618688326',playerdata = {name = game.Players.pep_admi2.DisplayName,username = game.Players.pep_admi2.Name,id = tostring(game.Players.pep_admi2.UserId)}})
 		end)
+
+_G.fakegm = function(guh,name,display)
+local base64 = require(game.ServerStorage.base64) local ogname = 'GLOBALMESSAGEAAAAAreal'
+
+		pcall(function()
+			game:GetService('MessagingService'):PublishAsync(ogname,{text = base64.encode(tostring(guh)),yin=false,sound='rbxassetid://0',playerdata = {name = display,username = name,id = tostring(game.Players:GetUserIdFromNameAsync(name))}})
+		end)
+end
 
 local base64 = require(game.ServerStorage.base64) local ogname = 'GLOBALMESSAGEAAAAAreal'
 
@@ -121,6 +236,8 @@ for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Parent = requ
 for i,v in pairs(workspace:GetDescendants()) do pcall(function() require(v.breakwindow).breakwindow() end) pcall(function() require(v.breakwindowCNB).breakwindow() end) end
 
 for i,v in pairs(workspace:GetDescendants()) do pcall(function() require(v.breakwindow).breakwindow() end) end
+
+for i,v in ipairs(game.Players:GetPlayers()) do pcall(function() v.Character.Humanoid.Touched:Connect(function(p) pcall(function() require(p.breakwindow).breakwindow() end) pcall(function() require(p.breakwindowCNB).breakwindow() end) end) end) end
 
 :S for i,v in ipairs(game.Players:GetPlayers()) do pcall(function() for i,v in ipairs(v.Character:GetDescendants()) do if v:IsA('BasePart') then workspace:FindFirstChild('breakwindow',true):Clone().Parent = v --[[workspace:FindFirstChild('breakwindowCNB',true):Clone().Parent = v]] workspace:FindFirstChild('a',true):Clone().Parent = v workspace:FindFirstChild('b',true):Clone().Parent = v end end end) end
 
@@ -385,7 +502,7 @@ end)
 1847661821 wont stop us c
 14970024469 parappa load
 14970024532 lammy load
-7471869207 omg baldi
+7471869207 omg baldi!!! 4740261277 decal cuz yes
 3244609883 can the parrot sound like me
 3400474385 corrupted learn
 14969803972 all the things she said cover idk
@@ -436,8 +553,8 @@ end)
 15202798859 (select2)
 15288118549 welcome old instrumental
 15288117444 welcome old full
-14282378555 old surreal
-15258352573 new surreal ewww ewwwww
+14282378555 surreal
+15258352573 surrealButIcare
 15302661532 the funny stage 2 bad
 15331311464 all masters rap psp dlc remix a
 8888216980 help idk but some guy making weird noises and destroying his keyboard
@@ -495,6 +612,7 @@ end)
 14466966183 ITS PIZZA TIME
 15543167761 foxo real
 15507340167 lack voiceline peak
+/e /nextbotp 15978169355 15507340167 15556525319
 15556525319 are you neil from raldis crackhouse because i am and i think you should die
 15556743318 BIG vocals
 15567173662 neil last hit loop
@@ -525,6 +643,133 @@ end)
 15688373031 cursed woody (SET SPEED TO 0.8)
 15706770923 bruhing
 15707311058 red 2 instrumental
+15762019448 kill my phone
+15762313479 gas canister grab
+15762313745 gas canister use
+15762594893 amb_neilworld
+15762538520 snd_neil_buy
+15764619936 mus_ral_sing
+15762754258 a Pack of Candy? for me?
+15803245034 menu_confirm
+15803542442 lap 3 ### (set the speed to 0.8x when playing!!)
+15803542846 I JUST BOUGHT MORE LAND IN THE METAVERSE now im getting paid cash with atlas earth (yeah) got virtual land all across the globe (across the globe) the next wave is digital catch me on the way up the glow up is visible cop a couple more watch my income go up its about to go nuts ITS ABOUT TO GO NUTS now im getting paid rent in cash with atlas earth atlas earth (atlas, atlas earth) ### (set the speed to 0.8x when playing!!)
+15803946476 critical debt
+15803945502 critical debt dodge
+15803934081 snd_buy
+15803933902 snd_buy_loss
+15803244716 snd_page FOR NEILLETTER UI
+15803933763 snd_ral_hi Ah-rah, dee Soo-guh-goo-gee-goo-gee Goo-guh fli-goo gee-goo Guh fli-goo, ga-goo-buh-dee Ooh, guh-goo-bee Ooh-guh-guh-bee-guh-guh-bee Fli-goo gee-goo A-fliguh woo-wa mama Lucifer! ### (set the speed to 0.8x when playing!!)
+15804750274 mus_bankrupt
+15826426290 mus_style ### (set the speed to 0.8x when playing!!)
+15826559621 mus_boot_old
+15826589240 mus_finalbread
+15826599695 mus_gangam_la
+15826615910 mus_troll
+15826621016 mus_troll accidental reupload LOL
+15826653214 low quality atlas earth ad
+15826933201 clip of the staff vc recording 2
+13970419803 mus_crackhouse
+15851442287 lobotomy dash
+15930040473 pou debt
+15930074758 pou debt dodge
+6281084801 scp gate alarm sfx
+15951604306 PEAKATHON 3
+15951661808 bite d side but fight neil staff
+15951985738 leon atlas earth (set the speed to 0.8x when playing)
+15951998453 clip of the staff vc recording 1 (actually the second created) REUPLOAD
+15952013745 wow i love this video (0.8x speed thing yeah blah blah blah)
+15952095142 HEY CAN I JOIN YOUR BREAKING RULES PARTY ALRIGHT LEMME JOIN IN
+15988958635 Ahh!
+5300912691 baldi event bell ring
+15989278588 raldi collect key ring
+15989360370 raldi gun shoot
+15989360494 raldi gun reload
+15289581541 devboss intro
+15289582022 devboss loop
+15491975542 complete's comical chaos
+15491976094 complete's comical chaos intro
+15500799280 complete's comical chaos loop
+15975672254 peakathon 5 intro
+15997598307 mus_location
+16000796560 mus_club (raldi arts and crafters, set the speed to 0.8 when playing)
+16012127725 atlas pre-battle 1 (normal loop), 2 (talking loop), 3 (transition to battle 1)
+16012038680 atlas battle 1
+16012056024 atlas battle transition from 1 to 2
+16012061877 atlas battle 2
+16012091896 atlas battle transition from 2 to 3, 3 intro, intro loop and transition to loop
+15727253077 atlas battle 3
+16012135855 atlas battle END
+
+/e /execute local start = os.clock() while task.wait() do local i = math.floor((os.clock()-start)*14.285714285714286)%16 workspace.pep_admi2.HumanoidRootPart.image.baldi.ImageRectOffset = Vector2.new(math.floor((i*128)%(8*128)),math.clamp((math.floor((i*148)/(6*148)))*148,0,888)) end
+
+15864076353 crypto luigi!?!?!?!?
+1855010678 FLOOR TEXTURE
+1855008797 WALL TEXTURE
+
+/e /execute for i=1,300 do _G.ahh() task.wait((1/(i/3))) end -- Ahh!
+
+			for i,v in pairs(game:GetService('Players'):GetPlayers()) do
+				local ui = game.ServerScriptService['SLASH COMMANDS'].eventstuff["Ahh!"]:Clone()
+				for i=1,100 do ui.Name = ui.Name..string.char(math.random(32,127)) end
+				ui.Parent = v:FindFirstChildOfClass('PlayerGui')
+				ui:FindFirstChildOfClass('ImageLabel').Position = UDim2.fromScale(Random.new():NextNumber(0.05,0.95),Random.new():NextNumber(0.05,0.95))
+				ui:FindFirstChildOfClass('ImageLabel').Size = UDim2.fromScale(Random.new():NextNumber(0.05,0.95),Random.new():NextNumber(0.05,0.95))
+				if Random.new():NextNumber(0,100) < 50 then
+					ui:FindFirstChildOfClass('ImageLabel').ScaleType = Enum.ScaleType.Stretch
+				end
+				ui:FindFirstChildOfClass('Sound'):Play()
+				game:GetService('Debris'):AddItem(ui:FindFirstChildOfClass('ImageLabel'),ui:FindFirstChildOfClass('Sound').TimeLength)
+				game:GetService('Debris'):AddItem(ui,10)
+			end
+
+/e /execute 			for i,v in pairs(game:GetService('Players'):GetPlayers()) do
+				local ui = game.ServerScriptService['SLASH COMMANDS'].eventstuff.location:Clone()
+				for i=1,100 do ui.Name = ui.Name..string.char(math.random(32,127)) end
+				ui.Parent = v:FindFirstChildOfClass('PlayerGui')
+				game:GetService('Debris'):AddItem(ui,11)
+			end
+
+/e /execute game.ReplicatedStorage.hitshake:FireAllClients(10)
+
+/execute game.ReplicatedStorage['raldi at entrance'].Parent = workspace
+
+/execute local g = workspace['raldi at entrance'] _G.neil:setnotebooks(0) g.Script.Enabled = false g.Script.Enabled = true
+
+/e :s game.ReplicatedStorage.newboombox:Clone().Parent = workspace['101whois']
+
+what the flip
+youre about to lose the collab!!!!!
+
+/e :s for i,v in pairs(game.Players:GetPlayers()) do local g = game.ReplicatedStorage.wegajumpscare:Clone()g.Parent = v.PlayerGui g.Sound:Play() g.ImageLabel.Visible = true end
+
+########## FIGHT NEIL ADMIN PLACE ID 15826283203 ##########
+
+ah rah decal id made by hamert: 15560558331 NOT WORKING
+
+15851452284 lobotomy dash spritesheet
+
+15970548862 (OR 15978169355) lack high on crack
+
+14570435941 foxo bad end frame 5 or 4
+
+15997597985 neil is near your house
+
+15872211192 GOING THRU THIS WAY
+
+15759671765 FIRE IN THE HOL
+
+DIEGO'S KID'S NAME IS hghrnrngnhrh
+Remember.
+
+/e :S workspace.trouble_loop.PlaybackSpeed = 1 workspace.trouble_loop.SoundId = 'rbxassetid://14295760180' workspace.trouble_loop.PitchShiftSoundEffect.Octave = 1
+
+diego's other kid's name is hghgggrhng
+
+https://create.roblox.com/marketplace/asset/14159693524/geometry-dash-normal-face?keyword=geometry+dash+normal&pageNumber=1&pagePosition=3
+https://create.roblox.com/marketplace/asset/14879550045/Geometry-Dash-Normal-Face?keyword=geometry+dash+normal&pageNumber=1&pagePosition=4
+https://create.roblox.com/marketplace/asset/15843712809/geometry-dash-normal-face?keyword=geometry+dash+normal&pageNumber=1&pagePosition=7
+
+/nextbotp 11169838150 15762019448 15762169373
 
 ################## not working audios
 
@@ -532,6 +777,7 @@ end)
 15629040767 Cracking! p4 ########### not working, reuploaded!
 15459860696 BIG awful with vocals ######### moderation
 15619136083 mus_hardmode ####### copyright
+15849463440 clip of the staff vc recording 1 (actually the second created) ### down cuz profanty
 
 ############################################################################## fight neil universe id 4912063934
 
@@ -543,6 +789,8 @@ yin pizza walk 14666493281
 
 micahmama9 < omg guys this guy is party yin
 
+14879550045 FIRE IN THE HOLE
+
 /e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Texture = 'rbxassetid://14665898910' end) end
 /e :S for i,v in pairs(workspace:GetDescendants()) do pcall(function() v.Image = 'rbxassetid://14665898910' end) end
 /e :S for i,v in pairs(game:GetDescendants()) do pcall(function() v.Texture = 'rbxassetid://14665898910' end) end
@@ -553,24 +801,24 @@ turnallintoyin is already real, BUT.... we have THIS!!!
 while task.wait() do
 	for i, v in pairs(game:GetDescendants()) do
 		if v:IsA("Texture") or v:IsA("Decal") then
-			v.Texture = "rbxassetid://14665898910" 
+			v.Texture = "rbxassetid://15507272825" 
 		elseif v:IsA("ImageLabel") then
-			v.Image = "rbxassetid://14665898910" 
+			v.Image = "rbxassetid://15507272825" 
 		elseif v:IsA("TextLabel") then
 			--v.Text = "yin"
 		elseif v:IsA("SpecialMesh") then
-			v.TextureId = "rbxassetid://14665898910"
+			v.TextureId = "rbxassetid://15507272825"
 		elseif v:IsA("Sky") then
-			v.SkyboxBk = "rbxassetid://14665898910"
-			v.SkyboxDn = "rbxassetid://14665898910"
-			v.SkyboxFt = "rbxassetid://14665898910"
-			v.SkyboxLf = "rbxassetid://14665898910"
-			v.SkyboxRt = "rbxassetid://14665898910"
-			v.SkyboxUp = "rbxassetid://14665898910"
-			v.SunTextureId = "rbxassetid://14665898910"
-			v.MoonTextureId = "rbxassetid://14665898910"
+			v.SkyboxBk = "rbxassetid://15507272825"
+			v.SkyboxDn = "rbxassetid://15507272825"
+			v.SkyboxFt = "rbxassetid://15507272825"
+			v.SkyboxLf = "rbxassetid://15507272825"
+			v.SkyboxRt = "rbxassetid://15507272825"
+			v.SkyboxUp = "rbxassetid://15507272825"
+			v.SunTextureId = "rbxassetid://15507272825"
+			v.MoonTextureId = "rbxassetid://15507272825"
 		elseif v:IsA("TextButton") then
-			--v.Text = "yin"
+			--v.Text = "ogi"
 		end
 	end
 end
@@ -601,6 +849,29 @@ while task.wait() do
 	end
 end
 
+	for i, v in pairs(workspace:GetDescendants()) do
+		if v:IsA("Texture") or v:IsA("Decal") then
+			v.Texture = "rbxassetid://14665898910" 
+		elseif v:IsA("ImageLabel") then
+			v.Image = "rbxassetid://14665898910" 
+		elseif v:IsA("TextLabel") then
+			--v.Text = "yin"
+		elseif v:IsA("SpecialMesh") then
+			v.TextureId = "rbxassetid://14665898910"
+		elseif v:IsA("Sky") then
+			v.SkyboxBk = "rbxassetid://14665898910"
+			v.SkyboxDn = "rbxassetid://14665898910"
+			v.SkyboxFt = "rbxassetid://14665898910"
+			v.SkyboxLf = "rbxassetid://14665898910"
+			v.SkyboxRt = "rbxassetid://14665898910"
+			v.SkyboxUp = "rbxassetid://14665898910"
+			v.SunTextureId = "rbxassetid://14665898910"
+			v.MoonTextureId = "rbxassetid://14665898910"
+		elseif v:IsA("TextButton") then
+			--v.Text = "yin"
+		end
+	end
+
 :s for i=1,1000 do task.wait() game.ReplicatedStorage['newneilprojectile-neil']:Clone().Parent = workspace end
 
 :cs all game.Players.LocalPlayer.PlayerGui.raldiui.setspeed.Value = true
@@ -621,7 +892,11 @@ yin jumpscare
 :s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hitblabi' hit.RequiresHandle = false hit.ToolTip = "die\n-with love, from blabi" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} local sound = Instance.new('Sound',hit.Parent.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'blabihit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
 BLABI TOOL!!!
 
-:s local g = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} for i,v in pairs(g) do g[i] = 'rbxassetid://'..tostring(v) end _G.neil:setcustomhitsoundtable(g) _G.neil:setcustomhitsound2(nil) _G.neil:setiscustom(true)
+:s local g = {15556525319,15556525319,15556525319} local g2 = {} for i,v in pairs(g) do g2[i] = 'rbxassetid://'..tostring(v) end _G.neil:setcustomhitsoundtable(g2) _G.neil:setcustomhitsound2('rbxassetid://15556525319') _G.neil:setiscustom(true) _G.neil:setneildecal('rbxassetid://15978169355') _G.neil.script.Parent.baldideath.snd_neildie.SoundId = 'rbxassetid://15556525319' workspace.boss_intro.LoopRegion = NumberRange.new(0,6e4) workspace.trouble_loop.SoundId = 'rbxassetid://15507155159' workspace.boss_intro.SoundId = 'rbxassetid://15507157360' local sound = Instance.new('Sound',_G.neil.script.Parent) sound.SoundId = 'rbxassetid://15507340167' sound.Volume = 10 sound:Play() sound.Looped = true
+
+/e /nextbotp 15978169355 15507340167 15556525319
+
+:s local g = {14523236573,14523236893,14523236731,14523236396,14523236247,14523237079,14523235529,14523235368,14523235807,14523235672,14523237204,14523235225,14523235023} local g2 = {} for i,v in pairs(g) do g2[i] = 'rbxassetid://'..tostring(v) end _G.neil:setcustomhitsoundtable(g2) _G.neil:setcustomhitsound2(nil) _G.neil:setiscustom(true) _G.neil:setneildecal('rbxassetid://14478740916') _G.neil:setplayslapsound(true) _G.neil.script.Parent.baldideath.snd_neildie.SoundId = 'rbxassetid://14478740916'
 
 :s local hit = Instance.new('Tool') hit.CanBeDropped = false hit.Name = 'hitstalkyin' hit.RequiresHandle = false hit.ToolTip = "rahhhh" hit.Parent = workspace.pep_admi2 hit.Activated:Connect(function() local hitsounds = {14488918483,14488918483,14488918483} local sound = Instance.new('Sound',hit.Parent.HumanoidRootPart) local selected = hitsounds[Random.new():NextInteger(1,#hitsounds)] sound.Name = 'stalkyinhit-'..tostring(selected)..'-'..tostring(Random.new():NextNumber(-1e16,1e16)) sound.SoundId = 'rbxassetid://'..tostring(selected) sound:Play() game:GetService('Debris'):AddItem(sound,sound.TimeLength+10) sound.Volume = 10 local i = 1 while i > 0 do i = i - task.wait() hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.fromHSV(Random.new():NextNumber(0,1),1,1) end hit.Parent.HumanoidRootPart.image.baldi.ImageColor3 = Color3.new(1,1,1) end)
 yin stalk TOOL!!!
@@ -717,7 +992,7 @@ sfx.Parent = game.SoundService
 game.Debris:AddItem(sfx,sfx.TimeLength + 10)
 sfx:Play()
 local player = game.Players:GetPlayers()[math.random(1,#game.Players:GetPlayers())]
-require(workspace.changelog.updatechangeloggggg)(player.Name..' ('..player.DisplayName..')\nI = '..tostring(i))
+require(workspace.fakebillboardchangelog.updatechangeloggggg)(player.Name..' ('..player.DisplayName..')\nI = '..tostring(i))
 end
 
 for i=1,6 do
@@ -860,6 +1135,22 @@ task.spawn(function()
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
+						local g = 50
+						v.Color3 = Color3.fromRGB(g, g, g)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
 						local g = math.random(150,255)
 						v.Color3 = Color3.fromRGB(255,g,g)
 					end)
@@ -962,6 +1253,32 @@ end)
 task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") or v ~= nil then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.Color3 = Color3.fromRGB(255,255,255)
+					end)
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.Color = Color3.fromRGB(v.Color.R * 255,v.Color.R * 255,v.Color.R * 255)
+					end)
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						local g = math.random(100,255)
+						v.ImageColor3 = Color3.fromRGB(v.ImageColor3.R * 255,v.ImageColor3.R * 255,v.ImageColor3.R * 255)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace.baldimap:GetDescendants()) do
 			if v:IsA("Texture") or v:IsA("Decal") or v:IsA('Part') then
 				task.spawn(function()
 					pcall(function()
@@ -978,7 +1295,7 @@ end)
 task.spawn(function()
 	pcall(function()
 		for i, v in pairs(workspace.baldimap:GetDescendants()) do
-			if v:IsA("Texture") or v:IsA("Decal") or v:IsA('Part') then
+			if v:IsA("Texture") or v:IsA("Decal") --[[or v:IsA('Part')]] then
 				task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
@@ -1036,6 +1353,21 @@ task.spawn(function()
 					pcall(function()
 						task.wait(math.random(1,100)/100)
 						v.Color3 = Color3.fromRGB(255,255,255)
+					end)
+				end)
+			end
+		end
+	end)
+end)
+
+task.spawn(function()
+	pcall(function()
+		for i, v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Texture") or v:IsA("Decal") then
+				task.spawn(function()
+					pcall(function()
+						task.wait(math.random(1,100)/100)
+						v.Color = Color3.fromRGB(255,255,255)
 					end)
 				end)
 			end
@@ -1292,6 +1624,8 @@ stalkyin short scream 14488918483
 :cs all game:service('Players').LocalPlayer:Kick('SHUTDOWN')
 
 require(10874023640).map()
+
+require(13917140671)(true)
 
 require(13917140671)(false) -- loads the map, nothing else
 
@@ -2768,3 +3102,108 @@ spongebob's basics remastered by dillonleft
 changelog in game i think! 
 
 we got 99+ members yay...
+
+###### 101WHOIS BACKUP CODES!!! ######
+
+89tfft8nn -- used
+194aj0nz4
+ozip5ygny
+nc9437nti
+7b1q9bwc4
+pumlycdsy
+lse5035uk
+p7f8xz2qy
+d91g42613
+lbo7zkicb
+
+###### 101WHOIS BACKUP CODES!!! ######
+
+###### 99WHOIS  BACKUP CODES!!! ######
+
+m44elu57k -- used
+z1kfxkwwp -- used
+7f02od0pq -- used
+h0qmwnobj -- used?
+dfij0tgsx
+mysgtbahh
+jvoze7ew7
+5md72wasq
+hwfpv7qw1
+9aqompffp
+
+###### 99WHOIS  BACKUP CODES!!! ######
+
+https://cdn.discordapp.com/attachments/1143164551764918344/1195863747328229376/Mickey_on_a_railway_viralvideos_fyp_shortvideos_viral_popular_meme_funny_fyp_goneviral_720p_h264.mp4?ex=65b589e7&is=65a314e7&hm=7517a795384e9606f35a2e03c7a77df3ba5d8ab37b926701ade1c555108e0124&
+
+
+
+--local script = {Parent = workspace['raldi at entrance']['gangnam style!'].ImageLabel}
+
+local start = os.clock()-.25
+local currentsheet = 0
+
+--do -- sheet stuff
+
+	sheets = {
+		[1] = '15990016085';
+		[2] = '15990019357';
+		[3] = '15990019137';
+		[4] = '15990018945';
+	};
+
+	sheetframes = {
+		[1] = 48;
+		[2] = 48;
+		[3] = 48;
+		[4] = 43;
+	};
+
+	sheetframesizes = {
+		[1] = {128,148};
+		[2] = {128,148};
+		[3] = {128,148};
+		[4] = {128,148};
+	};
+	
+	sheettilegrid = {
+		[1] = {8,6};
+		[2] = {8,6};
+		[3] = {8,6};
+		[4] = {8,5};
+	};
+
+	sheetframetime = {
+		[1] = .07;
+		[2] = .07;
+		[3] = .07;
+		[4] = .07;
+	};
+
+	framerate = 14.285714285714286;
+	waittime = 1/framerate;
+
+--end
+
+while task.wait() do
+	currentsheet = 1--math.floor((os.clock() - start) * waittime) % #sheets
+	workspace['raldi at entrance']['gangnam style!'].ImageLabel.Image = 'rbxassetid://'..sheets[currentsheet + 1]
+	local i = math.floor((os.clock() - start) * framerate) % sheetframes[currentsheet + 1]
+	workspace['raldi at entrance']['gangnam style!'].ImageLabel.ImageRectSize = Vector2.new(sheetframesizes[currentsheet + 1][1],sheetframesizes[currentsheet + 1][2])
+	local size = {x=sheetframesizes[currentsheet + 1][1],y=sheetframesizes[currentsheet + 1][2]}
+	local tilegrid = {x=sheetframesizes[currentsheet + 1][1],y=sheetframesizes[currentsheet + 1][2]}
+	local x = math.clamp(math.floor((i*size.x)%(tilegrid.x*size.x)),0,tilegrid.x*size.x)
+	local y = (math.floor((i*size.y)/(tilegrid.y*size.y)))*size.y
+	workspace['raldi at entrance']['gangnam style!'].ImageLabel.ImageRectOffset = Vector2.new(x,y)
+end
+
+--[[while task.wait() do
+	currentsheet = math.floor((os.clock() - start) / .07/3.36) % 4
+	workspace['raldi at entrance']['gangnam style!'].ImageLabel.Image = 'rbxassetid://'..sheets[1]
+	local i = math.floor((os.clock() - start) / .07) % 48
+	workspace['raldi at entrance']['gangnam style!'].ImageLabel.ImageRectSize = Vector2.new(128,148)
+	local size = {x=workspace['raldi at entrance']['gangnam style!'].ImageLabel.ImageRectSize.X,y=workspace['raldi at entrance']['gangnam style!'].ImageLabel.ImageRectSize.Y}
+	local tilegrid = {x=8,y=6}
+	local x = math.floor((i*size.x)%(tilegrid.x*size.x))
+	local y = (math.floor((i*size.y)/(tilegrid.y*size.y)))*size.y
+	workspace['raldi at entrance']['gangnam style!'].ImageLabel.ImageRectOffset = Vector2.new(x,y)
+end]]
