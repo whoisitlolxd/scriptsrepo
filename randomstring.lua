@@ -3,9 +3,9 @@ local function rstr(leng)
   for i=0,9 do table.insert(charset,i) end
   for i=65,90 do table.insert(charset,string.char(i)) end
   for i=97,122 do table.insert(charset,string.char(i)) end
-  for i=1,math.random(2,10) do
+  --[[for i=1,math.random(2,10) do
     math.randomseed(math.random(-os.time(),os.time()))
-  end
+  end]] -- may break so yeah removed lol!
   local lenm = tonumber(leng)
   if lenm == nil then return("") end
   if lenm <= 0 then lenm = 1 end
